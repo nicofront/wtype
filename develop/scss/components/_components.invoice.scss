@@ -1,0 +1,81 @@
+.body-order main{
+    background-color: $smoke-white;
+}
+
+.fc-section--invoice {
+    margin-top: 2rem;
+    margin-bottom: 2rem;
+
+    .invoice {
+        border-radius: 2rem;
+        padding: 2rem;
+        border: 1px solid rgba($color: $black, $alpha: .2);
+        background-color: $white;
+        max-width: 60rem;
+        margin: auto;
+    }
+}
+
+.invoice-header {
+
+    &__actions {
+        .btn {
+            margin-right: 0.5rem;
+        }
+    }
+
+    &__actions,
+    &__infos {
+        margin-bottom: 1.5rem;
+    }
+
+    &__contact {
+        .contactInfo__item {
+            display: block;
+        }
+
+        .contactInfo__organisation,
+        .invoice-header__contact .contactInfo__vat,
+        .invoice-header__contact .contactInfo__postalcode,
+        .invoice-header__contact .contactInfo__city {
+            display: inline;
+        }
+    }
+
+}
+
+
+.invoice__overview {
+    margin-top: 2rem;
+    margin-bottom: 2rem;
+}
+
+
+
+.invoice__licensee-info {
+    .licenseeInfo__item {
+        display: block;
+    }
+
+    .licenseeInfo__organisation,
+    .licenseeInfo__licenseeinfoorganisation,
+    .licenseeInfo__vat,
+    .licenseeInfo__licenseeinfovat,
+    .licenseeInfo__postalcode,
+    .licenseeInfo__licenseeinfopostalcode,
+    .licenseeInfo__city,
+    .licenseeInfo__licenseeinfocity {
+        display: inline;
+    }
+}
+
+.invoice__footer {
+    display: none;
+}
+
+
+
+
+
+
+

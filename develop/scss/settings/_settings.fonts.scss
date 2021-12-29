@@ -1,0 +1,244 @@
+@include font-face("FoundryCore Icons", "fc-icons/FoundryCoreIcons-Regular");
+
+
+$monospace: "SF Mono", Menlo, Monaco, Consolas, "Liberation Mono", "Courier New", monospace;
+
+
+/* FoundryCore Icons */
+.icon:before {
+    font-family: "FoundryCore Icons";
+    font-style: normal;
+    font-weight: normal;
+    display: inline-block;
+    text-decoration: inherit;
+    text-align: center;
+    /* For safety - reset parent styles, that can break glyph codes*/
+    font-variant: normal;
+    text-transform: none;
+    /* you can be more comfortable with increased icons size */
+    /* font-size: 120%; */
+    -webkit-font-smoothing: antialiased;
+    -moz-osx-font-smoothing: grayscale;
+  }
+  
+  .i-align-center:before {
+    content: '\E000';}
+  
+  .i-align-center.large:before {
+    content: '\E001';}
+  
+  .i-align-center.medium:before {
+    content: '\E002';}
+  
+  .i-align-justify:before {
+    content: '\E003';}
+  
+  .i-align-justify.large:before {
+    content: '\E004';}
+  
+  .i-align-justify.medium:before {
+    content: '\E005';}
+  
+  .i-align-left:before {
+    content: '\E006';}
+  
+  .i-align-left.large:before {
+    content: '\E007';}
+  
+  .i-align-left.medium:before {
+    content: '\E008';}
+  
+  .i-align-right:before {
+    content: '\E009';}
+  
+  .i-align-right.large:before {
+    content: '\E00A';}
+  
+  .i-align-right.medium:before {
+    content: '\E00B';}
+  
+  .i-arrowDown:before {
+    content: '\E00C';}
+  
+  .i-arrowDown.large:before {
+    content: '\E00D';}
+  
+  .i-arrowDown.medium:before {
+    content: '\E00E';}
+  
+  .i-arrowLeft:before {
+    content: '\E00F';}
+  
+  .i-arrowLeft.large:before {
+    content: '\E010';}
+  
+  .i-arrowLeft.medium:before {
+    content: '\E011';}
+  
+  .i-arrowRight:before {
+    content: '\E012';}
+  
+  .i-arrowRight.large:before {
+    content: '\E013';}
+  
+  .i-arrowRight.medium:before {
+    content: '\E014';}
+  
+  .i-arrowUp:before {
+    content: '\E015';}
+  
+  .i-arrowUp.large:before {
+    content: '\E016';}
+  
+  .i-arrowUp.medium:before {
+    content: '\E017';}
+  
+  .i-clear:before {
+    content: '\E018';}
+  
+  .i-clear.large:before {
+    content: '\E019';}
+  
+  .i-clear.medium:before {
+    content: '\E01A';}
+  
+  .i-clearCircle:before {
+    content: '\E01B';}
+  
+  .i-clearCircle.large:before {
+    content: '\E01C';}
+  
+  .i-clearCircle.medium:before {
+    content: '\E01D';}
+  
+  .i-clearSquare:before {
+    content: '\E01E';}
+  
+  .i-clearSquare.large:before {
+    content: '\E01F';}
+  
+  .i-clearSquare.medium:before {
+    content: '\E020';}
+  
+  .i-fontFeature:before {
+    content: '\E021';}
+  
+  .i-fontFeature.large:before {
+    content: '\E022';}
+  
+  .i-fontFeature.medium:before {
+    content: '\E023';}
+  
+  .i-fontsize:before {
+    content: '\E024';}
+  
+  .i-fontsize-less:before {
+    content: '\E025';}
+  
+  .i-fontsize-less.large:before {
+    content: '\E026';}
+  
+  .i-fontsize-less.medium:before {
+    content: '\E027';}
+  
+  .i-fontsize-more:before {
+    content: '\E028';}
+  
+  .i-fontsize-more.large:before {
+    content: '\E029';}
+  
+  .i-fontsize-more.medium:before {
+    content: '\E02A';}
+  
+  .i-fontsize.large:before {
+    content: '\E02B';}
+  
+  .i-fontsize.medium:before {
+    content: '\E02C';}
+  
+  .i-instagram:before {
+    content: '\E02D';}
+  
+  .i-instagram.large:before {
+    content: '\E02E';}
+  
+  .i-instagram.medium:before {
+    content: '\E02F';}
+  
+  .i-lead-change:before {
+    content: '\E030';}
+  
+  .i-lead-change.large:before {
+    content: '\E031';}
+  
+  .i-lead-change.medium:before {
+    content: '\E032';}
+  
+  .i-lead-less:before {
+    content: '\E033';}
+  
+  .i-lead-less.large:before {
+    content: '\E034';}
+  
+  .i-lead-less.medium:before {
+    content: '\E035';}
+  
+  .i-lead-more:before {
+    content: '\E036';}
+  
+  .i-lead-more.medium:before {
+    content: '\E037';}
+  
+  .i-mail:before {
+    content: '\E038';}
+  
+  .i-mail.large:before {
+    content: '\E039';}
+  
+  .i-mail.medium:before {
+    content: '\E03A';}
+  
+  .i-paper:before {
+    content: '\E03B';}
+  
+  .i-paper.large:before {
+    content: '\E03C';}
+  
+  .i-paper.medium:before {
+    content: '\E03D';}
+  
+  .i-permalink:before {
+    content: '\E03E';}
+  
+  .i-permalink.large:before {
+    content: '\E03F';}
+  
+  .i-permalink.medium:before {
+    content: '\E040';}
+  
+  .i-restore:before {
+    content: '\E041';}
+  
+  .i-restore.large:before {
+    content: '\E042';}
+  
+  .i-restore.medium:before {
+    content: '\E043';}
+  
+  .i-twitter:before {
+    content: '\E044';}
+  
+  .i-twitter.large:before {
+    content: '\E045';}
+  
+  .i-twitter.medium:before {
+    content: '\E046';}
+  
+  .i-variations:before {
+    content: '\E047';}
+  
+  .i-variations.large:before {
+    content: '\E048';}
+  
+  .i-variations.medium:before {
+    content: '\E049';}

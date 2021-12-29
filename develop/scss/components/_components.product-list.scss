@@ -1,0 +1,64 @@
+.license-form-column {
+    margin-bottom: 2rem;
+}
+
+.license-box {
+    margin-bottom: 1rem;
+}
+
+#add-button {
+    margin-top: .2rem;
+    text-transform: uppercase;
+    letter-spacing: .1rem;
+}
+
+
+/* PRODUCTS COLUMN */
+
+.products-wrapper {
+    margin-bottom: 2rem;
+
+
+    .product-item {
+        cursor: pointer;
+        border-top: 1px dashed $light-gray;
+        font-feature-settings: "tnum";
+        padding: .6rem .2rem .7rem .2rem;
+    
+        &:last-child {
+            border-bottom: 1px dashed $light-gray;
+        }
+    
+        &:hover {
+            background-color: #e5faff;
+        }
+    
+        &.marked {
+            background-color: #b9f1ff;
+        }
+    
+        &.submarked {
+            background-color: #e5faff;
+        }
+        
+        &.hovered {
+            background-color: #e5faff;
+        }
+    
+        .product-info-wrapper {
+            padding-top: .5rem;
+            font-size: 85%;
+            max-width: 45rem;
+            color: $secondary;
+        }
+    
+        .product-sample {
+            font-size: 280%;
+            line-height: 1;
+        }
+    }
+
+}
+
+
+

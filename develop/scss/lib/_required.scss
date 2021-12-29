@@ -1,0 +1,345 @@
+form .honeypot {
+	position: absolute;
+	overflow: hidden;
+	width: 0;
+	height: 0;
+	pointer-events: none;
+}
+
+/* ====================================================== */
+/* CART PAGES */
+
+.product-item.no-price .product-price-wrapper {
+	visibility: hidden;
+}
+
+
+/* ====================================================== */
+/* ECOMMERCE PAGES */
+
+/* ANCHOR 1. Animations */
+
+@-webkit-keyframes loading {
+	to {
+		-webkit-transform: rotate(1turn);
+		transform: rotate(1turn);
+	}
+}
+@keyframes loading {
+	to {
+		-webkit-transform: rotate(1turn);
+		-moz-transform: rotate(1turn);
+		transform: rotate(1turn);
+	}
+}
+@-webkit-keyframes fade-in {
+	from {
+		opacity: 0;
+	}
+	to {
+		opacity: 1;
+	}
+}
+@keyframes fade-in {
+	from {
+		opacity: 0;
+	}
+	to {
+		opacity: 1;
+	}
+}
+
+/* ANCHOR 2. General Button and Overlay */
+
+button[type='submit'] {
+	position: relative;
+}
+
+button[type='submit']::after {
+	content: "";
+}
+
+button[type='submit'][disabled] {
+	pointer-events: none;
+}
+
+button[type='submit']:not([disabled]) {
+	cursor: pointer;
+	-webkit-transition-duration: 150ms;
+	transition-duration: 150ms;
+	-webkit-transition-property: background-color;
+	transition-property: background-color;
+}
+
+.cart__update-overlay::after,
+button[type='submit']::after {
+	position: absolute;
+	left: -webkit-calc(50% - 12px);
+	left: calc(50% - 12px);
+	top: -webkit-calc(50% - 12px);
+	top: calc(50% - 12px);
+	-webkit-box-sizing: border-box;
+	-moz-box-sizing: border-box;
+	box-sizing: border-box;
+	width: 24px;
+	height: 24px;
+	-webkit-border-radius: 12px;
+	-moz-border-radius: 12px;
+	border-radius: 12px;
+	border: 2px solid transparent;
+	border-top-color: #fff;
+	opacity: 0;
+	-webkit-animation-name: loading;
+	animation-name: loading;
+	-webkit-animation-duration: 450ms;
+	animation-duration: 450ms;
+	-webkit-animation-timing-function: linear;
+	animation-timing-function: linear;
+	-webkit-animation-iteration-count: infinite;
+	animation-iteration-count: infinite;
+	-webkit-transition-duration: 150ms;
+	transition-duration: 150ms;
+	-webkit-transition-property: opacity;
+	transition-property: opacity;
+}
+
+
+/* ANCHOR 3. CHECKOUT PAGE: Cart section */
+
+.cart {
+	position: relative;
+}
+
+.cart__update-overlay {
+	position: absolute;
+	left: 0;
+	right: 0;
+	top: 0;
+	bottom: 0;
+	display: none;
+	opacity: 0;
+	z-index: 1;
+	background-color: rgba(255, 255, 255, 0.6);
+}
+
+.cart__update-overlay::after {
+	content: "";
+	-webkit-transition-delay: 150ms;
+	transition-delay: 150ms;
+}
+
+.cart.is-updating .cart__update-overlay {
+	display: block;
+	-webkit-animation: fade-in 300ms ease-out forwards;
+	animation: fade-in 300ms ease-out forwards;
+}
+
+.cart.is-updating .cart__update-overlay::after {
+	opacity: 1;
+	border-top-color: #000;
+}
+
+.cart__error-overlay {
+	position: absolute;
+	left: 0;
+	right: 0;
+	top: 0;
+	bottom: 0;
+	display: -webkit-box;
+	display: -webkit-flex;
+	display: -moz-box;
+	display: -ms-flexbox;
+	display: flex;
+	-webkit-box-align: center;
+	-webkit-align-items: center;
+	-moz-box-align: center;
+	-ms-flex-align: center;
+	align-items: center;
+	-webkit-box-pack: center;
+	-webkit-justify-content: center;
+	-moz-box-pack: center;
+	-ms-flex-pack: center;
+	justify-content: center;
+	-webkit-align-content: center;
+	-ms-flex-line-pack: center;
+	align-content: center;
+	opacity: 0;
+	color: #b81414;
+	font-weight: 700;
+	background-color: rgba(250, 250, 250, 0.6);
+	-webkit-animation: fade-in 300ms ease-out forwards;
+	animation: fade-in 300ms ease-out forwards;
+}
+
+.cart__error-overlay[hidden] {
+	display: none;
+}
+
+.cartItem button[name="decrease"],
+.couponItem button[name="remove"] {
+	-webkit-appearance: none;
+	   -moz-appearance: none;
+	        appearance: none;
+	border: none;
+	background: none;
+}
+
+
+/* ANCHOR 4. CHECKOUT PAGE: Checkout section */
+
+.form-checkout {
+	position: relative;
+}
+
+.form-checkout::after {
+	content: " ";
+	display: none;
+	position: absolute;
+	left: 0;
+	right: 0;
+	top: 0;
+	bottom: 0;
+	background-color:rgba($body-bg, 0.6);
+	-webkit-animation: fade-in 300ms ease-out forwards;
+	animation: fade-in 300ms ease-out forwards;
+	z-index: 900;
+}
+
+.form-checkout.is-loading label {
+	opacity: 0.2;
+}
+
+.form-checkout.is-deactivated::after {
+	display: block;
+}
+
+.form-checkout.is-loading::after {
+	display: block;
+}
+
+.form-checkout__submit button[type='submit'] {
+	-webkit-transition-delay: 150ms;
+	-o-transition-delay: 150ms;
+	   transition-delay: 150ms;
+}
+
+.form-checkout.is-loading .form-checkout__submit button[type='submit'] {
+	color: transparent;
+	-webkit-transition-delay: 0s;
+	-o-transition-delay: 0s;
+	   transition-delay: 0s;
+}
+
+.form-checkout.is-loading .form-checkout__submit button[type='submit']::after {
+	opacity: 1;
+	-webkit-transition-delay: 150ms;
+	-o-transition-delay: 150ms;
+	   transition-delay: 150ms;
+}
+
+.StripeElement {
+	display: block;
+	width: 100%;
+	height: calc(1.5em + 0.75rem + 2px);
+	padding: 0.375rem 0.75rem;
+	padding-top: 0.5rem;
+	font-size: 1rem;
+	font-weight: 400;
+	line-height: 1.5;
+	color: #495057;
+	background-color: #fff;
+	background-clip: padding-box;
+	border: 1px solid #ced4da;
+	border-radius: 0.25rem;
+	transition: border-color 0.15s ease-in-out, box-shadow 0.15s ease-in-out;
+}
+
+
+// ANCHOR PROCESSING MODAL
+
+.form-checkout .processing__outerWrapper, //Legacy not preffixed class
+.form-checkout .fc-processing__outerWrapper {
+    display: none;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+    position: fixed;
+    text-align: center;
+    width: 100%;
+    -webkit-animation: fade-in 300ms ease-out forwards;
+    animation: fade-in 300ms ease-out forwards;
+    z-index: 999;
+}
+
+.form-checkout.is-processing .processing__outerWrapper, //Legacy not preffixed class
+.form-checkout.is-processing .fc-processing__outerWrapper {
+    display: block;
+}
+
+.form-checkout .fc-processing__innerWrapper {
+    margin: auto;
+    position: relative;
+    background: $body-bg;
+    border: 1px solid $body-color;
+    padding: 2rem;
+    max-width: 400px;
+    border-radius: .4rem;
+}
+
+
+.processingLoader {
+    position: relative;
+    height: 24px;
+    margin-bottom: 1rem;
+}
+
+.processingLoader::after {
+    content: "";
+    position: absolute;
+    z-index: 999;
+    left: -webkit-calc(50% - 12px);
+    left: calc(50% - 12px);
+    top: -webkit-calc(50% - 12px);
+    top: calc(50% - 12px);
+    -webkit-box-sizing: border-box;
+    -moz-box-sizing: border-box;
+    box-sizing: border-box;
+    width: 24px;
+    height: 24px;
+    -webkit-border-radius: 12px;
+    -moz-border-radius: 12px;
+    border-radius: 12px;
+    border: 2px solid transparent;
+    border-top-color: $primary;
+    opacity: 1;
+    -webkit-animation-name: loading;
+    animation-name: loading;
+    -webkit-animation-duration: 450ms;
+    animation-duration: 450ms;
+    -webkit-animation-timing-function: linear;
+    animation-timing-function: linear;
+    -webkit-animation-iteration-count: infinite;
+    animation-iteration-count: infinite;
+    -webkit-transition-duration: 150ms;
+    transition-duration: 150ms;
+    -webkit-transition-property: opacity;
+    transition-property: opacity;
+}
+
+/* ANCHOR 4. ADD TO CART PAGE: Form buy section */
+
+.form-buy.is-loading button[type='submit'] {
+	color: transparent;
+	-webkit-transition-delay: 0s;
+	-o-transition-delay: 0s;
+	   transition-delay: 0s;
+}
+
+.form-buy.is-loading button[type='submit']::after {
+	opacity: 1;
+	-webkit-transition-delay: 150ms;
+	     -o-transition-delay: 150ms;
+	        transition-delay: 150ms;
+}
+
+

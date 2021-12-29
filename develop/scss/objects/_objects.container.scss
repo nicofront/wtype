@@ -1,0 +1,14 @@
+section {
+    margin-top: 2rem;
+    margin-bottom: 2rem;
+}
+
+.container {
+    max-width: none;
+    padding-left: 4vw;
+    padding-right: 4vw;
+}
+
+.fc-section {
+    @extend .container;
+}

@@ -1,0 +1,47 @@
+// Cart items list
+
+.cart {
+    .table__heading {
+        font-weight: 700;
+    }
+
+    .table__foot {
+        font-weight: 700;
+        margin-top: 1rem;
+    }
+}
+
+
+.cartItem {
+    border-bottom: 1px solid $light-gray;
+    padding-top: 1rem;
+    padding-bottom: 1rem;
+
+    .remove-product-button {
+        @extend .btn;
+        padding: 0;
+        vertical-align: baseline;
+    }
+}
+
+
+
+// Stripe Elements
+
+.label__stripecard {
+    border-radius: 1rem;
+    padding: 1rem;
+    margin-top: 0.5rem;
+    margin-bottom: 1rem;
+    display: block;
+    background: $light-gray;
+}
+
+.stripe-badge {
+    margin-top: 0.5rem;
+    max-width: 100px;
+}
+
+.cancellation__checkbox {
+    margin-bottom: 0.5rem;
+}

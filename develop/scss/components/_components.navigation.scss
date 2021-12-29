@@ -1,0 +1,29 @@
+.navbar .row {
+    flex-grow: 1;
+}
+
+.siteNavbar {
+    background: $white;
+    .navbar-brand {
+        font-weight: 700;
+    }
+
+    .navbar-nav {
+
+        .nav-item {
+            &.active {
+                font-weight: 700;
+            }
+        }
+    }
+}
+
+.cartQ {
+    color: $primary;
+    &::before {
+        content: '[';
+    }
+    &::after{
+        content: ']';
+    }
+}

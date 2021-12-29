@@ -1,0 +1,37 @@
+.blog{
+	.blog__post{
+		display: block;
+		text-decoration: none;
+		margin-bottom: 30px;
+		img{
+			width: 100%;
+		}
+		h3, h4, h5{
+			margin-bottom: 20px;
+		}
+		h3, h4{
+			a{
+				color: inherit;
+				&:hover{
+					color: #007bff;
+				}
+			}
+		}
+		ul{
+			padding-left: 0;
+			margin-bottom: 20px;
+			li{
+				display: inline-block;
+				margin-left: 15px;
+				&:first-child{
+					margin-left: 0;
+				}
+			}
+		}
+		&.blog__post--small{
+			img{
+				margin-bottom: 30px;
+			}
+		}
+	}
+}

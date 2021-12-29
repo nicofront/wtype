@@ -1,0 +1,31 @@
+.stage{
+	min-height: 100px;
+	background: rgb(255,255,255);
+	background: linear-gradient(0deg, rgba(255,255,255,1) 0%, rgba(0,123,255,0.9766107126444328) 100%); 
+	&.stage--big{
+		min-height: 100vh;
+	}
+	.menu{
+		padding-top: 15px;
+		padding-bottom: 15px;
+		.menu__table{
+			display: table;
+			width: 100%;
+			.menu__tr{
+				display: table-row;
+				.menu__td{
+					display: table-cell;
+					vertical-align: middle;
+					width: 16.5%;
+					text-align: center;
+				}
+			}
+		}
+	}
+	.tester{
+		textarea{
+			min-height: 80vh;
+			font-size: 200px;
+		}
+	}
+}

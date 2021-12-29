@@ -1,0 +1,57 @@
+#glyphset {
+    max-height: 80vh;
+    overflow: scroll;
+    border-bottom: 1px solid $light-gray;
+}
+
+.categoryWrapper {
+    visibility: visible;
+    height: auto;
+    opacity: 1;
+
+    h5 {
+        margin-bottom: 1rem;
+    }
+}
+
+.glyphsWrapper {
+    display: grid;
+    grid-template-columns: repeat(14, 1fr);
+    gap: 1px;
+    margin-bottom: 1rem;
+}
+
+.glyphWrapper {
+    background-color: $white;
+    outline: 1px solid $light-gray;
+    
+    &:hover {
+        -webkit-transition: .05s all;
+        transition: .05s all;
+        transform: scale(1.6);
+        /* outline: none; */
+        z-index: 99;
+    }
+}
+
+
+// METRICS TO-DO
+
+#font-metrics {
+    border-top: 1px solid $light-gray;
+    width: 100%;
+    position: auto;
+}
+
+.metricLine {
+    line-height: 1.3;
+    width: 100%;
+    font-size: 90%;
+    border-top: 1px solid $light-gray;
+    position: absolute;
+}
+
+
+.metricLine .metricLineInfo {
+    /* margin-top: -1.3rem; */
+}

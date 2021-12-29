@@ -1,0 +1,12 @@
+.button{
+	display: inline-block;
+	border-radius: 20px;
+	border: 1px solid black;
+	text-decoration: none;
+	text-align: center;
+	padding: 5px 30px;
+	&.button--pink{
+		background-color: #e6abc9;
+		border: none;
+	}
+}

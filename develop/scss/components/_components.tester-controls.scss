@@ -1,0 +1,49 @@
+
+/* Tester Controls  */
+
+.dropdown-menu {
+    max-height: 40vh;
+    overflow: auto;
+}
+
+.dropdown-menu .custom-control {
+    white-space: nowrap;
+}
+
+.featuresWrapper .custom-control-label::before,
+.featuresWrapper .custom-control-label::after {
+    top: 0.22rem;
+}
+
+
+/* ====================================================== */
+/* General Page STYLES */
+
+
+/* ====================================================== */
+/* TESTER Controls */
+.testerControls {
+    input[type=range]::-moz-range-progress {
+        background-color: $primary;
+        height: .1rem;
+    }
+
+
+    button.active {
+        color: $primary;
+    }
+
+    .btn:focus {
+        box-shadow: none !important;
+    } 
+
+    .featuresWrapper,
+    .axesMajorWrapper {
+        padding: 0rem 1rem;
+    }
+
+    .fontstyle-dropdown .dropdown-toggle {
+        padding-left: 0px;
+    }
+}
+

@@ -1,0 +1,25 @@
+
+.account-navbar__wrapper {
+    border-top: 1px solid lightgray;
+    font-family: $monospace;
+
+    .account-navbar {
+        padding-left: 0px;
+        padding-right: 0px;
+
+
+        .nav-item {
+            .nav-link {
+                color: inherit;
+            }
+
+            &.active .nav-link {
+                color: $primary;
+            }
+        }
+
+        & .nav-item:first-child .nav-link {
+            padding-left: 0px;
+        }
+    }
+}

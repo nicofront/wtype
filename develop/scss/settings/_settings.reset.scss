@@ -1,0 +1,67 @@
+// STICKY FOOTER 
+html {
+    height: 100%;
+}
+  
+html, body {
+    min-height: 100%;
+    width: 100%;
+}
+
+body {
+    display: -webkit-box;
+    display: -ms-flexbox;
+    display: flex;
+    -webkit-box-orient: vertical !important;
+    -webkit-box-direction: normal !important;
+    -ms-flex-direction: column !important;
+    flex-direction: column !important;
+}  
+
+main {
+    -webkit-box-flex: 1;
+    -ms-flex: auto;
+    flex: auto;
+}
+
+
+html {
+    -webkit-font-smoothing: antialiased;
+    -moz-osx-font-smoothing: grayscale;
+}
+
+
+a {
+    color: currentColor;
+    text-decoration: none;
+}
+
+a:hover {
+    text-decoration: none;
+    color: inherit;
+}
+
+p a {
+    text-decoration: underline;
+}
+
+strong,
+b {
+    font-weight: 700;
+}
+
+img {
+    width: 100%;
+}
+
+*:-moz-focusring {
+    outline: 0px;
+}
+
+.custom-select {
+    -webkit-appearance: none;
+    -moz-appearance: none;
+    appearance: none;
+}
+
+
