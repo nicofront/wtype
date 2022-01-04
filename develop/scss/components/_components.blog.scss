@@ -2,7 +2,7 @@
 	.blog__post{
 		display: block;
 		text-decoration: none;
-		margin-bottom: 30px;
+		margin-bottom: 45px;
 		img{
 			width: 100%;
 		}
@@ -12,17 +12,21 @@
 		h3, h4{
 			a{
 				color: inherit;
+				display: inline-block;
 				&:hover{
 					color: #007bff;
 				}
 			}
+		}
+		h5{
+			color: #c8c8c8;
 		}
 		ul{
 			padding-left: 0;
 			margin-bottom: 20px;
 			li{
 				display: inline-block;
-				margin-left: 15px;
+				margin-left: 5px;
 				&:first-child{
 					margin-left: 0;
 				}
@@ -33,5 +37,8 @@
 				margin-bottom: 30px;
 			}
 		}
+	}
+	.marquee{
+		border: 1px solid #007bff;
 	}
 }

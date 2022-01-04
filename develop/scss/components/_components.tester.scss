@@ -2,12 +2,39 @@
 /* Tester Required styles */
 
 .tester{
+    position: relative;
+    .tester__type{
+        font-weight: 700;
+        margin-bottom: 0;
+    }
+    .tester__menu{
+
+    }
+    .tester__sale{
+        position: absolute;
+        display: inline-block;
+        right: 0;
+        top: 0;
+        width: 120px;
+        height: 120px;
+        border-radius: 50%;
+        background-color: #000;
+        span{
+            position: absolute;
+            text-align: center;
+            color: #fff;
+            top: 50%;
+            left: 50%;
+            font-weight: 700;
+            transform: translate(-50%, 0);
+        }
+    }
     textarea{
         width: 100%;
-        height: 400px;
+        height: 300px;
         display: block;
         font-size: 40px;
-        line-height: 1.2;
+        line-height: 1.08;
         border: none;
         background-color: rgba(0,0,0,0);
         overflow: hidden;

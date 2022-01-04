@@ -1,31 +1,83 @@
 .stage{
 	min-height: 100px;
+	margin-bottom: 50px;
 	background: rgb(255,255,255);
-	background: linear-gradient(0deg, rgba(255,255,255,1) 0%, rgba(0,123,255,0.9766107126444328) 100%); 
+	position: relative;
+	background: linear-gradient(0deg, rgba(255,255,255,1) 0%, rgba(0,123,255,0.9916107126444328) 100%); 
+	#sandwich{
+		display: none;
+		@media only screen and (max-width: 991px) {
+			display: inline-block;
+		}
+	}
 	&.stage--big{
-		min-height: 100vh;
+		height: 100vh;
+		padding-bottom: 150px;
+	}
+	.stage__logo{
+		font-weight: 700;
+	}
+	.stage__logo{
+		svg{
+			height: 30px;
+		}
+	}
+	.stage__marquee{
+		width: 100%;
+		display: block;
+		position: absolute;
+		bottom: 50px;
+		left: 0;
 	}
 	.menu{
 		padding-top: 15px;
 		padding-bottom: 15px;
+		margin-bottom: 30px;
 		.menu__table{
 			display: table;
 			width: 100%;
+			@media only screen and (max-width: 991px) {
+				display: block;
+				width: 100%;
+			}
 			.menu__tr{
 				display: table-row;
+				@media only screen and (max-width: 991px) {
+					display: block;
+					width: 100%;
+					margin-top: 15px;
+					display: none;
+				}
 				.menu__td{
 					display: table-cell;
 					vertical-align: middle;
 					width: 16.5%;
 					text-align: center;
+					a{
+						font-size: 14px;
+					}
+					@media only screen and (max-width: 991px) {
+						display: block;
+						width: 100%;
+						text-align: left;
+						border-bottom: 1px solid #fff;
+						a{
+							display: block;
+							background: #007bff;
+							color: #fff;
+							padding: 10px 5px;
+						}
+					}
 				}
 			}
 		}
 	}
 	.tester{
 		textarea{
+			padding: 20px 30px;
 			min-height: 80vh;
-			font-size: 200px;
+			font-size: 120px;
+			text-transform: uppercase;
 		}
 	}
 }

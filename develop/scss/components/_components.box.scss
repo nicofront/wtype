@@ -1,6 +1,19 @@
 .box{
 	border-radius: 15px;
-	padding: 30px 30px;
+	padding: 50px 50px;
+	&.box--blueborder{
+		border: 1px solid #007bff;
+		margin-bottom: 50px;
+		.tester{
+			.tester__title{
+				color: #000;
+				margin-bottom: 30px;
+			}
+			textarea{
+				color: #000;
+			}
+		}
+	}
 	&.box--pink{
 		background-color: #e6abc9;
 		.tester{
@@ -9,8 +22,24 @@
 			}
 		}
 	}
+	&.box--orange{
+		background-color: #ff7000;
+		margin-bottom: 50px;
+		.tester{
+			.tester__title{
+				color: #fff;
+				margin-bottom: 30px;
+			}
+			textarea{
+				color: #fff;
+			}
+		}
+	}
 	&.box--red{
 		background-color: #ae3d2d;
+	}
+	&.box--noradius{
+		border-radius: 0;
 	}
 	&.box--banner{
 		display: block;
@@ -32,6 +61,11 @@
 			position: absolute;
 			z-index: 2;
 			background-color: rgba(0,0,0,0);
+			-ms-transition: .5s;
+			-moz-transition: .5s;
+			-webkit-transition: .5s;
+			-o-transition: .5s;
+			transition: .5s;
 		}
 		.button{
 			position: absolute;
@@ -39,7 +73,6 @@
 			left: 50%;
 			z-index: 3;
 			transform: translate(-50%, -50%);
-			background-color: #fff;
 			border: none;
 		}
 		&:hover{

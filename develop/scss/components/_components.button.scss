@@ -1,12 +1,34 @@
 .button{
 	display: inline-block;
 	border-radius: 20px;
-	border: 1px solid black;
+	border: 1px solid #000;
 	text-decoration: none;
 	text-align: center;
 	padding: 5px 30px;
+	&.button--alpha{
+		background-color: rgba(0,0,0,0);
+	}
+	&.button--noborder{
+		border: none;
+	}
 	&.button--pink{
 		background-color: #e6abc9;
 		border: none;
+	}
+	&.button--black{
+		background-color: #000;
+		color: #fff;
+	}
+	&.button--upper{
+		text-transform: uppercase;
+	}
+	&.button--big{
+		padding: 15px 60px;
+		border-radius: 30px;
+	}
+	&.button--circle{
+		padding: 5px;
+		width: 36px;
+		text-align: center;
 	}
 }
