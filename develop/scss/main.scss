@@ -44,6 +44,7 @@
 @import "./tools/tools.index";
 
 // SETTINGS
+@import "./settings/settings.util";
 @import "./settings/settings.index";
 
 // FoundryCore base styles
@@ -56,6 +57,9 @@
 @import "./components/components.index";
 @import "./components/components.stage";
 @import "./components/components.button";
+@import "./components/components.footer";
+@import "./components/components.sliders";
+@import "./components/components.scrollbox";
 @import "./components/components.box";
 @import "./components/components.tester";
 @import "./components/components.blog";
