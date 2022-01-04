@@ -7643,6 +7643,9 @@ header.header {
   padding: 15px 60px;
   border-radius: 30px; }
 
+.button.button--full {
+  width: 100%; }
+
 .button.button--circle {
   padding: 5px;
   width: 36px;
@@ -7992,6 +7995,13 @@ header.header {
 
 .blog .marquee {
   border: 1px solid #007bff; }
+
+.form .form__item input[type="text"], .form .form__item textarea {
+  display: block;
+  width: 100%;
+  border: 1px solid #000;
+  border-radius: 3px;
+  padding: 5px; }
 
 #discountsForm {
   padding-top: 1rem; }
