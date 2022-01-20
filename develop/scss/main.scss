@@ -6,6 +6,8 @@
 @import "../../node_modules/bootstrap/scss/mixins";
 
 // Optionals
+@import "../../node_modules/slick-carousel/slick/slick.scss";
+@import "../../node_modules/slick-carousel/slick/slick-theme.scss";
 @import "../../node_modules/bootstrap/scss/root";
 @import "../../node_modules/bootstrap/scss/reboot";
 @import "../../node_modules/bootstrap/scss/type";
@@ -46,15 +48,18 @@
 // SETTINGS
 @import "./settings/settings.util";
 @import "./settings/settings.index";
+@import "./settings/settings.fonts";
 
 // FoundryCore base styles
 @import "./lib/required";
 
 // OBJECTS
 @import "./objects/objects.index";
+@import "./objects/objects.text";
 
 // COMPONENTS
 @import "./components/components.index";
+@import "./components/components.wave";
 @import "./components/components.stage";
 @import "./components/components.button";
 @import "./components/components.footer";
