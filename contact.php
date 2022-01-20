@@ -14,17 +14,17 @@
                         <div class="menu__table">
                             <div class="menu__tr">
                                 <div class="menu__td">
-                                    <a href="">
+                                    <a href="typefaces.php">
                                         Typefaces
                                     </a>
                                 </div>
                                 <div class="menu__td">
-                                    <a href="">
+                                    <a href="about.php">
                                         About
                                     </a>
                                 </div>
                                 <div class="menu__td">
-                                    <a href="">
+                                    <a href="blog.php">
                                         Blog
                                     </a>
                                 </div>
@@ -63,23 +63,23 @@
         <div class="container-xl">
             <div class="row">
                 <div class="col-lg-3 col-md-4">
-                    <h3 class="pb-3">
+                    <h3 class="pb-4 text text--black text--big30">
                         Contact us
                     </h3>
-                    <p class="pb-4">
+                    <p class="pb-4 text text--small15">
                         Address <br>
                         Tegualda 1830, Ñuñoa. <br>
                         Región Metropolitana. <br>
                         Santiago Chile.
                     </p>
-                    <p class="pb-4">
+                    <p class="pb-5 text text--small15">
                         Email <br>
-                        <a href="" mailto:"hola@wtypefoundry.com">hola@wtypefoundry.com</a>
+                        <a href="" mailto:"hola@wtypefoundry.com">hola@wtypefoundry.com</a> <br>
                         We are able to answer in English and
                         Spanish, will get bak to you within 24
                         hours.
                     </p>
-                    <h3 class="pb-4">
+                    <h3 class="pb-5  text text--black text--big30">
                         Social media
                     </h3>
                     <div class="pb-5">
@@ -106,7 +106,7 @@
                     </div>
                 </div>
                 <div class="col-lg-6 col-md-8 pb-5">
-                    <h3 class="pb-3">
+                    <h3 class="pb-4 text text--black text--big30">
                         Contact form
                     </h3>
                     <div class="form pb-5">
@@ -168,7 +168,7 @@
                             </div>
                         </form>
                     </div>
-                    <h3>
+                    <h3 class="pb-2 text text--black text--big30">
                         Susbribe to our newsletter
                     </h3>
                     <p class="pb-3">
