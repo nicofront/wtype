@@ -1,3 +1,64 @@
+body{
+	font-family: 'SaesGrotesk';
+}
+
 .text{
-	
+	font-family: 'SaesGrotesk';
+	margin-bottom: 2px;
+	&.text--bold{
+		font-family: 'SaesGrotesk-Bold';
+	}
+	&.text--black{
+		font-family: 'SaesGrotesk-Black';
+	}
+	&.text--extrabold{
+		font-family: 'SaesGrotesk-ExtraBold';
+	}
+	&.text--small12{
+		font-size: 12px;
+		line-height: 15.6px;
+	}
+	&.text--small13{
+		font-size: 13px;
+		line-height: 15.6px;
+	}
+	&.text--small15{
+		font-size: 15px;
+		line-height: 20px;
+	}
+	&.text--regular17{
+		font-size: 17px;
+		line-height: 20px;
+	}
+	&.text--regular20{
+		font-size: 20px;
+		line-height: 24px;
+	}
+	&.text--big30{
+		font-size: 30px;
+		line-height: 36px;
+	}
+	&.text--blogtitle{
+		font-size: 32px;
+		line-height: 38px;
+		font-weight: 400;
+		&.text--blogtitle--big{
+			font-size: 51px;
+			line-height: 61px;
+		}
+	}
+	&.text--blogauthor{
+		font-size: 18px;
+		line-height: 21px;
+		font-weight: 400;
+		&.text--blogauthor--big{
+			font-size: 20px;
+			line-height: 24px;
+		}
+	}
+	a{
+		&:hover{
+			color: #007bff;
+		}
+	}
 }
