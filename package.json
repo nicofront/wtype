@@ -45,6 +45,7 @@
     "merge-stream": "^2.0.0",
     "mjml": "^4.9.3",
     "sass": "^1.26.10",
+    "slick-carousel": "^1.8.1",
     "vinyl-buffer": "^1.0.1",
     "vinyl-source-stream": "^2.0.0"
   },
