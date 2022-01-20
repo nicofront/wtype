@@ -1,5 +1,14 @@
 @include font-face("FoundryCore Icons", "fc-icons/FoundryCoreIcons-Regular");
 
+@font-face{ font-family: 'SaesGrotesk'; font-weight: normal; font-style: normal; 
+src: url( "../fonts/saes/SaesGrotesk-Regular.otf");}
+@font-face{ font-family: 'SaesGrotesk-Bold'; font-weight: normal; font-style: normal; 
+src: url( "../fonts/saes/SaesGrotesk-Bold.otf");}
+@font-face{ font-family: 'SaesGrotesk-Black'; font-weight: normal; font-style: normal; 
+src: url( "../fonts/saes/SaesGrotesk-Black.otf");}
+@font-face{ font-family: 'SaesGrotesk-ExtraBold'; font-weight: normal; font-style: normal; 
+src: url( "../fonts/saes/SaesGrotesk-ExtraBold.otf");}
+
 
 $monospace: "SF Mono", Menlo, Monaco, Consolas, "Liberation Mono", "Courier New", monospace;
 
