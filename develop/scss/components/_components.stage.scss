@@ -11,7 +11,7 @@
 		}
 	}
 	&.stage--big{
-		height: 100vh;
+		min-height: 100vh;
 		padding-bottom: 150px;
 	}
 	.stage__logo{
@@ -74,10 +74,9 @@
 	}
 	.tester{
 		textarea{
-			padding: 20px 30px;
+			padding: 5px 30px 20px;
 			min-height: 80vh;
 			font-size: 120px;
-			text-transform: uppercase;
 		}
 	}
 }

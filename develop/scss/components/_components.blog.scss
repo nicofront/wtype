@@ -24,12 +24,19 @@
 		ul{
 			padding-left: 0;
 			margin-bottom: 20px;
+			font-size: 0;
 			li{
 				display: inline-block;
 				margin-left: 5px;
 				&:first-child{
 					margin-left: 0;
 				}
+			}
+		}
+		&.blog__post--big{
+			display: flex;
+			.col-md-4{
+				align-self: flex-end;
 			}
 		}
 		&.blog__post--small{

@@ -4,9 +4,14 @@
 	border: 1px solid #000;
 	text-decoration: none;
 	text-align: center;
-	padding: 5px 30px;
+	padding: 2px 30px;
+	font-size: 18px;
+	line-height: 21px;
 	&.button--alpha{
 		background-color: rgba(0,0,0,0);
+	}
+	&.button--left{
+		text-align: left;
 	}
 	&.button--noborder{
 		border: none;
@@ -23,15 +28,17 @@
 		text-transform: uppercase;
 	}
 	&.button--big{
-		padding: 15px 60px;
-		border-radius: 30px;
+		padding: 8px 60px;
+		border-radius: 43px;
+		font-size: 32px;
+		line-height: 39px;	
 	}
 	&.button--full{
 		width: 100%;
 	}
 	&.button--circle{
-		padding: 5px;
-		width: 36px;
+		padding: 2px;
+		width: 27px;
 		text-align: center;
 	}
 }

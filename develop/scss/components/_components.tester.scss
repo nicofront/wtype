@@ -4,8 +4,10 @@
 .tester{
     position: relative;
     .tester__type{
-        font-weight: 700;
+        font-family: 'SaesGrotesk-Bold';
         margin-bottom: 0;
+        font-size: 30px;
+        line-height: 36px;
     }
     .tester__menu{
 
@@ -22,11 +24,14 @@
         span{
             position: absolute;
             text-align: center;
+            font-family: 'SaesGrotesk-ExtraBold';
+            font-size: 28px;
+            line-height: 1;
             color: #fff;
             top: 50%;
             left: 50%;
             font-weight: 700;
-            transform: translate(-50%, 0);
+            transform: translate(-50%, -20%);
         }
     }
     textarea{
@@ -40,6 +45,61 @@
         overflow: hidden;
         resize: none;
     }   
+    .tester-switch{
+        display: inline-block;
+        position: absolute;
+        left: 0;
+        top: 50%;
+        transform: translate(0, -50%);
+        width: 30px;
+        height: 30px;
+        background: #000;
+        border-radius: 50%;
+        cursor: pointer;
+    }
+}
+
+.slidecontainer {
+  width: 100%; /* Width of the outside container */
+}
+
+/* The slider itself */
+.sliderrange {
+  -webkit-appearance: none;  /* Override default CSS styles */
+  appearance: none;
+  width: 100%; /* Full-width */
+  height: 1px; /* Specified height */
+  background: #000; /* Grey background */
+  outline: none; /* Remove outline */
+  opacity: 1; /* Set transparency (for mouse-over effects on hover) */
+  -webkit-transition: .2s; /* 0.2 seconds transition on hover */
+  transition: opacity .2s;
+}
+
+/* Mouse-over effects */
+.sliderrange:hover {
+  opacity: 1; /* Fully shown on mouse-over */
+}
+
+/* The slider handle (use -webkit- (Chrome, Opera, Safari, Edge) and -moz- (Firefox) to override default look) */
+.sliderrange::-webkit-slider-thumb {
+  -webkit-appearance: none; /* Override default look */
+  appearance: none;
+  width: 25px; /* Set a specific slider handle width */
+  height: 25px; /* Slider handle height */
+  border-radius: 50%;
+  border: none;
+  background: #000; /* Green background */
+  cursor: pointer; /* Cursor on hover */
+}
+
+.sliderrange::-moz-range-thumb {
+  width: 25px; /* Set a specific slider handle width */
+  height: 25px; /* Slider handle height */
+  border-radius: 50%;
+  border: none;
+  background: #000; /* Green background */
+  cursor: pointer; /* Cursor on hover */
 }
 
 .boxWrapper.hidden {
@@ -95,7 +155,6 @@
     }
 
 }
-
 
 .loadingLabel {
     font-size: 1rem;
