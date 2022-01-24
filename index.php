@@ -68,8 +68,36 @@
                         <h4 class="tester__type">
                             New Font
                         </h4>
-                        <textarea>Herokid new type
+                        <textarea>HEROKID&#13;&#10;NEW&#13;&#10;TYPE
                         </textarea>
+                        <div class="tester__menu mb-5">
+                            <div class="row">
+                                <div class="col-md-3">
+                                    <select name="" class="button button--alpha button--left button--full">
+                                        <option value="">
+                                            Saes Grotesk Regular
+                                        </option>
+                                        <option value="">
+                                            Saes Grotesk Light
+                                        </option>
+                                        <option value="">
+                                            Saes Grotesk Bold
+                                        </option>
+                                    </select>
+                                </div>
+                                <div class="col-md-2 offset-md-5">
+                                    <div class="slidecontainer">
+                                      <input type="range" min="1" max="100" value="50" class="sliderrange">
+                                    </div>
+                                </div>
+                                <div class="col-md-2 u-right">
+                                    <a class="tester-switch"></a>
+                                    <a href="" class="button button--black">
+                                        View font
+                                    </a>
+                                </div>
+                            </div>
+                        </div>
                     </div>
                 </div>
             </div>
@@ -265,8 +293,8 @@
                         <textarea>SAES GROTESK is a grotesque style font, inspired by classic fonts like Helvetica, Impact and Univers, with a dynamic, versatile and flexible personality. It ranges from Thin to Heavy, and from UltraCompressed to UltraExpanded.</textarea>
                         <div class="tester__menu">
                             <div class="row">
-                                <div class="col-md-6">
-                                    <select name="" class="button button--alpha">
+                                <div class="col-md-3">
+                                    <select name="" class="button button--alpha button--left button--full">
                                         <option value="">
                                             Saes Grotesk Regular
                                         </option>
@@ -278,7 +306,13 @@
                                         </option>
                                     </select>
                                 </div>
-                                <div class="col-md-3 offset-md-3 u-right">
+                                <div class="col-md-2 offset-md-5">
+                                    <div class="slidecontainer">
+                                      <input type="range" min="1" max="100" value="50" class="sliderrange">
+                                    </div>
+                                </div>
+                                <div class="col-md-2 u-right">
+                                    <a class="tester-switch"></a>
                                     <a href="" class="button button--black">
                                         View font
                                     </a>
@@ -291,23 +325,29 @@
             <div class="col-md-12">
                 <div class="box box--blueborder">
                     <div class="tester">
-                        <textarea>ARP</textarea>
+                        <textarea>ARP&#13;&#10;⇾ ⇾ ⇾</textarea>
                         <div class="tester__menu">
                             <div class="row">
-                                <div class="col-md-6">
-                                    <select name="" class="button button--alpha">
+                                <div class="col-md-3">
+                                    <select name="" class="button button--alpha button--left button--full">
                                         <option value="">
-                                            ARP 240
+                                            Saes Grotesk Regular
                                         </option>
                                         <option value="">
-                                            ARP 360
+                                            Saes Grotesk Light
                                         </option>
                                         <option value="">
-                                            ARP 480
+                                            Saes Grotesk Bold
                                         </option>
                                     </select>
                                 </div>
-                                <div class="col-md-3 offset-md-3 u-right">
+                                <div class="col-md-2 offset-md-5">
+                                    <div class="slidecontainer">
+                                      <input type="range" min="1" max="100" value="50" class="sliderrange">
+                                    </div>
+                                </div>
+                                <div class="col-md-2 u-right">
+                                    <a class="tester-switch"></a>
                                     <a href="" class="button button--black">
                                         View font
                                     </a>
@@ -475,13 +515,13 @@
                     <div class="blog__post blog__post--small">
                         <img src="https://picsum.photos/seed/picsum/1200/600" alt="Moncler">
                         <h4>
-                            <a href="" class="transition">
+                            <a href="" class="transition text text--blogtitle">
                                 Nueva Merch
                                 de temporada
                                 verano WTF
                             </a>
                         </h4>
-                        <h5>
+                        <h5 class="text text--blogauthor">
                             Team W - 01 . 2021
                         </h5>
                         <ul>
@@ -495,13 +535,13 @@
                 </div>
                 <div class="col-md-4">
                     <div class="blog__post blog__post--small">
-                        <img src="https://picsum.photos/seed/picsum/1200/1200" alt="Moncler">
+                        <img src="https://picsum.photos/seed/picsum/1200/600" alt="Moncler">
                         <h4>
-                            <a href="" class="transition">
+                            <a href="" class="transition text text--blogtitle">
                                 Lorem ipsum dolor sit amet consectetur adipisicing, elit. Harum, non.
                             </a>
                         </h4>
-                        <h5>
+                        <h5 class="text text--blogauthor">
                             Team W - 01 . 2021
                         </h5>
                         <ul>
@@ -515,13 +555,13 @@
                 </div>
                 <div class="col-md-4">
                     <div class="blog__post blog__post--small">
-                        <img src="https://picsum.photos/seed/picsum/1200/1600" alt="Moncler">
+                        <img src="https://picsum.photos/seed/picsum/1200/600" alt="Moncler">
                         <h4>
-                            <a href="" class="transition">
+                            <a href="" class="transition text text--blogtitle">
                                 Lorem ipsum dolor sit amet consectetur adipisicing elit. Molestiae aliquid ut sed tempore velit explicabo, vel cupiditate sequi odio voluptate.
                             </a>
                         </h4>
-                        <h5>
+                        <h5 class="text text--blogauthor">
                             Team W - 01 . 2021
                         </h5>
                         <ul>
