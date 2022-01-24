@@ -38,6 +38,15 @@
 			.col-md-4{
 				align-self: flex-end;
 			}
+			@media only screen and (max-width: 768px) {
+				display: block;
+				img{
+					margin-bottom: 30px;
+				}
+				.col-md-4, .col-md-8{
+					width: 100%;
+				}
+			}
 		}
 		&.blog__post--small{
 			img{

@@ -4,6 +4,13 @@
 
 .home--slider{
 	margin-bottom: 100px;
+	.slider{
+		&:nth-child(2n+1){
+			.col-md-12{
+				text-align: right;
+			}
+		}
+	}
 	.home--slider--banner{
 		padding: 40px 20px;
 		display: block;
