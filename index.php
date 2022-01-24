@@ -107,28 +107,151 @@
         </div>
     </div>
 
-    <section class="marquee button button--noborder button--big mb-5">
-      <h4 class="text">
-        Tipografías Destacadas
-      </h4>
-      <h4 class="text">
-        Tipografías Destacadas
-      </h4>
-      <h4 class="text">
-        Tipografías Destacadas
-      </h4>
-      <h4 class="text">
-        Tipografías Destacadas
-      </h4>
-      <h4 class="text">
-        Tipografías Destacadas
-      </h4>
-      <h4 class="text">
-        Tipografías Destacadas
-      </h4>
-      <h4 class="text">
-        Tipografías Destacadas
-      </h4>
+    <section class="marquee mb-5">
+        <div class="logo is-animetion text text--wave">
+            <span>T</span>
+            <span>i</span>
+            <span>p</span>
+            <span>o</span>
+            <span>g</span>
+            <span>r</span>
+            <span>a</span>
+            <span>f</span>
+            <span>í</span>
+            <span>a</span>
+            <span>s</span>
+            <span> </span>
+            <span>D</span>
+            <span>e</span>
+            <span>s</span>
+            <span>t</span>
+            <span>a</span>
+            <span>c</span>
+            <span>a</span>
+            <span>d</span>
+            <span>a</span>
+            <span>s</span>
+        </div>
+        <div class="logo is-animetion text text--wave">
+            <span>T</span>
+            <span>i</span>
+            <span>p</span>
+            <span>o</span>
+            <span>g</span>
+            <span>r</span>
+            <span>a</span>
+            <span>f</span>
+            <span>í</span>
+            <span>a</span>
+            <span>s</span>
+            <span> </span>
+            <span>D</span>
+            <span>e</span>
+            <span>s</span>
+            <span>t</span>
+            <span>a</span>
+            <span>c</span>
+            <span>a</span>
+            <span>d</span>
+            <span>a</span>
+            <span>s</span>
+        </div>
+        <div class="logo is-animetion text text--wave">
+            <span>T</span>
+            <span>i</span>
+            <span>p</span>
+            <span>o</span>
+            <span>g</span>
+            <span>r</span>
+            <span>a</span>
+            <span>f</span>
+            <span>í</span>
+            <span>a</span>
+            <span>s</span>
+            <span> </span>
+            <span>D</span>
+            <span>e</span>
+            <span>s</span>
+            <span>t</span>
+            <span>a</span>
+            <span>c</span>
+            <span>a</span>
+            <span>d</span>
+            <span>a</span>
+            <span>s</span>
+        </div>
+        <div class="logo is-animetion text text--wave">
+            <span>T</span>
+            <span>i</span>
+            <span>p</span>
+            <span>o</span>
+            <span>g</span>
+            <span>r</span>
+            <span>a</span>
+            <span>f</span>
+            <span>í</span>
+            <span>a</span>
+            <span>s</span>
+            <span> </span>
+            <span>D</span>
+            <span>e</span>
+            <span>s</span>
+            <span>t</span>
+            <span>a</span>
+            <span>c</span>
+            <span>a</span>
+            <span>d</span>
+            <span>a</span>
+            <span>s</span>
+        </div>
+        <div class="logo is-animetion text text--wave">
+            <span>T</span>
+            <span>i</span>
+            <span>p</span>
+            <span>o</span>
+            <span>g</span>
+            <span>r</span>
+            <span>a</span>
+            <span>f</span>
+            <span>í</span>
+            <span>a</span>
+            <span>s</span>
+            <span> </span>
+            <span>D</span>
+            <span>e</span>
+            <span>s</span>
+            <span>t</span>
+            <span>a</span>
+            <span>c</span>
+            <span>a</span>
+            <span>d</span>
+            <span>a</span>
+            <span>s</span>
+        </div>
+        <div class="logo is-animetion text text--wave">
+            <span>T</span>
+            <span>i</span>
+            <span>p</span>
+            <span>o</span>
+            <span>g</span>
+            <span>r</span>
+            <span>a</span>
+            <span>f</span>
+            <span>í</span>
+            <span>a</span>
+            <span>s</span>
+            <span> </span>
+            <span>D</span>
+            <span>e</span>
+            <span>s</span>
+            <span>t</span>
+            <span>a</span>
+            <span>c</span>
+            <span>a</span>
+            <span>d</span>
+            <span>a</span>
+            <span>s</span>
+        </div>
     </section>
 
     <div class="container-xl mb-5" id="catalogo">
@@ -200,85 +323,149 @@
         </div>
     </div>
 
-    <section class="marquee button button--noborder button--big mb-5">
-      <h4 class="text">
-        COSAS WTF
-      </h4>
-      <h4 class="text">
-        COSAS WTF
-      </h4>
-      <h4 class="text">
-        COSAS WTF
-      </h4>
-      <h4 class="text">
-        COSAS WTF
-      </h4>
-      <h4 class="text">
-        COSAS WTF
-      </h4>
-      <h4 class="text">
-        COSAS WTF
-      </h4>
-      <h4 class="text">
-        COSAS WTF
-      </h4>
+    <section class="marquee mb-5">
+        <div class="logo is-animetion text text--wave">
+            <span>C</span>
+            <span>o</span>
+            <span>s</span>
+            <span>a</span>
+            <span>s</span>
+            <span> </span>
+            <span>W</span>
+            <span>T</span>
+            <span>F</span>
+        </div>
+        <div class="logo is-animetion text text--wave">
+            <span>C</span>
+            <span>o</span>
+            <span>s</span>
+            <span>a</span>
+            <span>s</span>
+            <span> </span>
+            <span>W</span>
+            <span>T</span>
+            <span>F</span>
+        </div>
+        <div class="logo is-animetion text text--wave">
+            <span>C</span>
+            <span>o</span>
+            <span>s</span>
+            <span>a</span>
+            <span>s</span>
+            <span> </span>
+            <span>W</span>
+            <span>T</span>
+            <span>F</span>
+        </div>
+        <div class="logo is-animetion text text--wave">
+            <span>C</span>
+            <span>o</span>
+            <span>s</span>
+            <span>a</span>
+            <span>s</span>
+            <span> </span>
+            <span>W</span>
+            <span>T</span>
+            <span>F</span>
+        </div>
+        <div class="logo is-animetion text text--wave">
+            <span>C</span>
+            <span>o</span>
+            <span>s</span>
+            <span>a</span>
+            <span>s</span>
+            <span> </span>
+            <span>W</span>
+            <span>T</span>
+            <span>F</span>
+        </div>
+        <div class="logo is-animetion text text--wave">
+            <span>C</span>
+            <span>o</span>
+            <span>s</span>
+            <span>a</span>
+            <span>s</span>
+            <span> </span>
+            <span>W</span>
+            <span>T</span>
+            <span>F</span>
+        </div>
     </section>
 
-    <div class="home--slider">
-        <div class="container-xl">
-            <div class="row">
-                <div class="col-md-12">
-                    <div class="slider">
-                        <a href="" class="home--slider--banner">
-                            <img src="https://picsum.photos/seed/picsum/1200/600" alt="Moncler">
+
+    <div class="home--slider" id="slider">
+        <div class="slider">
+            <a href="" class="home--slider--banner" style="background-image: url('https://picsum.photos/seed/picsum/1200/600');">
+                <div class="container-xl">
+                    <div class="row">
+                        <div class="col-md-12">
+                            <p class="text text--regular20 mb-4 transition">
+                                Lorem ipsum, <br>
+                                dolor, sit amet consectetur adipisicing elit.
+                            </p>
                             <div class="button button--black button--big u-upper">
-                                Blog
+                                Ir al Blog
                             </div>
-                        </a>
+                        </div>
                     </div>
                 </div>
-            </div>
+            </a>
+        </div>
+        <div class="slider">
+            <a href="" class="home--slider--banner" style="background-image: url('https://picsum.photos/seed/picsum/1200/600');">
+                <div class="container-xl">
+                    <div class="row">
+                        <div class="col-md-12">
+                            <p class="text text--regular20 mb-4 transition">
+                                Lorem ipsum, <br>
+                                dolor, sit amet consectetur adipisicing elit.
+                            </p>
+                            <div class="button button--black button--big u-upper">
+                                Ir al Blog
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </a>
         </div>
     </div>
 
-    <div class="blog mb-5">
+    <div class="blog mb-5" id="blogs">
         <div class="container-xl">
             <div class="row">
                 <div class="col-md-12">
-                    <div class="blog__post">
-                        <div class="row">
-                            <div class="col-md-8">
-                                <img src="https://picsum.photos/seed/picsum/1200/600" alt="Moncler">
-                            </div>
-                            <div class="col-md-4">
-                                <h3>
-                                    <a href="" class="transition">
-                                        Nueva Merch
-                                        de temporada
-                                        verano WTF
+                    <div class="blog__post blog__post--big">
+                        <div class="col-md-8">
+                            <img src="https://picsum.photos/seed/picsum/1200/600" alt="Moncler">
+                        </div>
+                        <div class="col-md-4">
+                            <h3>
+                                <a href="" class="transition text text--blogtitle text--blogtitle--big">
+                                    Nueva Merch
+                                    de temporada
+                                    verano WTF
+                                </a>
+                            </h3>
+                            <h5 class="text text--blogauthor text--blogauthor--big">
+                                Team W - 01 . 2021
+                            </h5>
+                            <ul>
+                                <li>
+                                    <a href="" class="transition button">
+                                        Merch
                                     </a>
-                                </h3>
-                                <h5>
-                                    Team W - 01 . 2021
-                                </h5>
-                                <ul>
-                                    <li>
-                                        <a href="" class="transition button">
-                                            Merch
-                                        </a>
-                                    </li>
-                                    <li>
-                                        <a href="" class="transition button">
-                                            Vida
-                                        </a>
-                                    </li>
-                                    <li>
-                                        <a href="" class="transition button button--circle">
-                                            +
-                                        </a>
-                                    </li>
-                                </ul>
-                            </div>
+                                </li>
+                                <li>
+                                    <a href="" class="transition button">
+                                        Vida
+                                    </a>
+                                </li>
+                                <li>
+                                    <a href="" class="transition button button--circle">
+                                        +
+                                    </a>
+                                </li>
+                            </ul>
                         </div>
                     </div>
                 </div>
