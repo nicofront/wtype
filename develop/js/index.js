@@ -36,6 +36,11 @@ ready(() => {
         dummy.init();
     }
 
+    $('#sandwich').click(function(e){
+        e.preventDefault();
+        $('.menu__table').stop().slideToggle();
+    });
+
     $('.home--slider').slick({
         arrows: false,
         adaptiveHeight: false

@@ -8,18 +8,33 @@
 		display: none;
 		@media only screen and (max-width: 991px) {
 			display: inline-block;
+			background-repeat: no-repeat;
+			background-position: center;
+			background-size: 25px 25px;
+			width: 30px;
+			height: 30px;
+			margin-left: 20px;
+			background-image: url('../images/ico-menu.png');
+			float: right;
 		}
 	}
 	&.stage--big{
 		min-height: 100vh;
 		padding-bottom: 150px;
 	}
-	.stage__logo{
+	.stage__title{
 		font-weight: 700;
+		font-size: 17px;
+		line-height: 30px;
+		display: inline-block;
 	}
 	.stage__logo{
+		display: inline-block;
 		svg{
 			height: 30px;
+		}
+		@media only screen and (max-width: 991px) {
+			margin-bottom: 15px;
 		}
 	}
 	.stage__marquee{
@@ -39,14 +54,12 @@
 			@media only screen and (max-width: 991px) {
 				display: block;
 				width: 100%;
+				display: none;
 			}
 			.menu__tr{
 				display: table-row;
 				@media only screen and (max-width: 991px) {
 					display: block;
-					width: 100%;
-					margin-top: 15px;
-					display: none;
 				}
 				.menu__td{
 					display: table-cell;
