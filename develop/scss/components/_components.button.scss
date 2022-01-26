@@ -27,6 +27,16 @@
 	&.button--upper{
 		text-transform: uppercase;
 	}
+	&.button--medium{
+		padding: 12px 60px;
+		border-radius: 43px;
+		font-size: 20px;
+		line-height: 24px;	
+		@media only screen and (max-width: 991px) {
+			padding: 5px 45px;
+			border-radius: 36px;
+		}
+	}
 	&.button--big{
 		padding: 8px 60px;
 		border-radius: 43px;
@@ -46,5 +56,8 @@
 		padding: 2px;
 		width: 27px;
 		text-align: center;
+	}
+	&.button--square{
+		border-radius: 0;
 	}
 }

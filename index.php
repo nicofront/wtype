@@ -92,7 +92,7 @@
                                 </div>
                                 <div class="col-md-2 u-right">
                                     <a class="tester-switch"></a>
-                                    <a href="" class="button button--black">
+                                    <a href="single.php" class="button button--black">
                                         View font
                                     </a>
                                 </div>
