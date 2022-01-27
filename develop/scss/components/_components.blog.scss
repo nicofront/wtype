@@ -21,18 +21,6 @@
 		h5{
 			color: #c8c8c8;
 		}
-		ul{
-			padding-left: 0;
-			margin-bottom: 20px;
-			font-size: 0;
-			li{
-				display: inline-block;
-				margin-left: 5px;
-				&:first-child{
-					margin-left: 0;
-				}
-			}
-		}
 		&.blog__post--big{
 			display: flex;
 			.col-md-4{
@@ -53,8 +41,5 @@
 				margin-bottom: 30px;
 			}
 		}
-	}
-	.marquee{
-		border: 1px solid #007bff;
 	}
 }
