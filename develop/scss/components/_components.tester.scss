@@ -54,9 +54,41 @@
         transform: translate(0, -50%);
         width: 27px;
         height: 27px;
-        background: #000;
         border-radius: 50%;
         cursor: pointer;
+        &.tester--noclass, &.tester--contrast, &.tester--bg{
+            background-repeat: no-repeat;
+            background-position: center;
+            background-size: 27px;
+        }
+        &.tester--noclass{
+            background-image: url('../images/iconmonstr-switch3.png');
+        }
+        &.tester--contrast{
+            background-image: url('../images/iconmonstr-switch0.png');
+        }
+        &.tester--bg{
+            background-image: url('../images/iconmonstr-switch1.png');
+        }
+    }
+}
+
+.testerparent{
+    &.testerparent--contrast{
+        border: 1px solid #000 !important;
+        color: #000 !important;
+        background: none;
+        background-color: #fff !important;
+        .tester__title, .tester__type, textarea{
+            color: #000 !important;
+            background: none;
+            background-color: #fff !important;
+        }
+    }
+    &.testerparent--bg{
+        background-repeat: no-repeat;
+        background-size: cover;
+        background-position: center;
     }
 }
 

@@ -1,7 +1,7 @@
 <?php include('partials/header.php'); ?>
 
 <body>
-    <div class="stage stage--big mb-5">
+    <div class="stage stage--big mb-5 testerparent testerparent--noclass">
         <div class="menu">
             <div class="container-xl">
                 <div class="row">
@@ -91,7 +91,7 @@
                                     </div>
                                 </div>
                                 <div class="col-md-2 u-right">
-                                    <a class="tester-switch"></a>
+                                    <a class="tester-switch tester--noclass"></a>
                                     <a href="single.php" class="button button--black">
                                         View font
                                     </a>
@@ -285,7 +285,7 @@
     <div class="container-xl mb-5" id="catalogo">
         <div class="row">
             <div class="col-md-12">
-                <div class="box box--orange">
+                <div class="box box--orange testerparent">
                     <div class="tester">
                         <h3 class="tester__title">
                             SAES GROTESK
@@ -312,7 +312,7 @@
                                     </div>
                                 </div>
                                 <div class="col-md-2 u-right">
-                                    <a class="tester-switch"></a>
+                                    <a class="tester-switch tester--noclass"></a>
                                     <a href="" class="button button--black">
                                         View font
                                     </a>
@@ -323,7 +323,7 @@
                 </div>
             </div>
             <div class="col-md-12">
-                <div class="box box--blueborder">
+                <div class="box box--blueborder testerparent">
                     <div class="tester">
                         <textarea>ARP&#13;&#10;⇾ ⇾ ⇾</textarea>
                         <div class="tester__menu">
@@ -347,7 +347,7 @@
                                     </div>
                                 </div>
                                 <div class="col-md-2 u-right">
-                                    <a class="tester-switch"></a>
+                                    <a class="tester-switch tester--noclass"></a>
                                     <a href="" class="button button--black">
                                         View font
                                     </a>

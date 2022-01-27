@@ -41,6 +41,32 @@ ready(() => {
         $('.menu__table').stop().slideToggle();
     });
 
+    $('.tester-switch').click(function(e){
+        let self = $(this);
+        let parent = self.parents('.testerparent');
+        e.preventDefault();
+        if(self.hasClass('tester--noclass')){
+            self.removeClass('tester--noclass');
+            self.addClass('tester--contrast');
+            parent.removeClass('testerparent--noclass');
+            parent.addClass('testerparent--contrast');
+        }else{
+            if(self.hasClass('tester--contrast')){
+                self.removeClass('tester--contrast');
+                self.addClass('tester--bg');
+                parent.removeClass('testerparent--contrast');
+            parent.addClass('testerparent--bg');
+            }else{
+                if(self.hasClass('tester--bg')){
+                    self.removeClass('tester--bg');
+                    self.addClass('tester--noclass');
+                    parent.removeClass('testerparent--bg');
+                    parent.addClass('testerparent--noclass');
+                }
+            }
+        }
+    });
+
     $('.home--slider').slick({
         arrows: false,
         adaptiveHeight: false

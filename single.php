@@ -1,7 +1,7 @@
 <?php include('partials/header.php'); ?>
 
 <body>
-    <div class="stage stage--big mb-5">
+    <div class="stage stage--big mb-5 testerparent testerparent--noclass">
         <div class="menu">
             <div class="container-xl">
                 <div class="row">
@@ -91,7 +91,7 @@
                                     </div>
                                 </div>
                                 <div class="col-md-2 u-right">
-                                    <a class="tester-switch"></a>
+                                    <a class="tester-switch tester--noclass"></a>
                                     <a href="single.php" class="button button--black">
                                         View font
                                     </a>
