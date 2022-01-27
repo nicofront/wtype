@@ -489,23 +489,25 @@
                             <h5 class="text text--blogauthor text--blogauthor--big">
                                 Team W - 01 . 2021
                             </h5>
-                            <ul>
-                                <li>
-                                    <a href="" class="transition button">
-                                        Merch
-                                    </a>
-                                </li>
-                                <li>
-                                    <a href="" class="transition button">
-                                        Vida
-                                    </a>
-                                </li>
-                                <li>
-                                    <a href="" class="transition button button--circle">
-                                        +
-                                    </a>
-                                </li>
-                            </ul>
+                            <div class="categories">
+                                <ul>
+                                    <li>
+                                        <a href="" class="transition button">
+                                            Merch
+                                        </a>
+                                    </li>
+                                    <li>
+                                        <a href="" class="transition button">
+                                            Vida
+                                        </a>
+                                    </li>
+                                    <li>
+                                        <a href="" class="transition button button--circle">
+                                            +
+                                        </a>
+                                    </li>
+                                </ul>
+                            </div>
                         </div>
                     </div>
                 </div>
@@ -524,13 +526,15 @@
                         <h5 class="text text--blogauthor">
                             Team W - 01 . 2021
                         </h5>
-                        <ul>
-                            <li>
-                                <a href="" class="button transition">
-                                    Interview
-                                </a>
-                            </li>
-                        </ul>
+                        <div class="categories">
+                            <ul>
+                                <li>
+                                    <a href="" class="button transition">
+                                        Interview
+                                    </a>
+                                </li>
+                            </ul>
+                        </div>
                     </div>
                 </div>
                 <div class="col-md-4">
@@ -544,13 +548,15 @@
                         <h5 class="text text--blogauthor">
                             Team W - 01 . 2021
                         </h5>
-                        <ul>
-                            <li>
-                                <a href="" class="button transition">
-                                    Interview
-                                </a>
-                            </li>
-                        </ul>
+                        <div class="categories">
+                            <ul>
+                                <li>
+                                    <a href="" class="button transition">
+                                        Interview
+                                    </a>
+                                </li>
+                            </ul>
+                        </div>
                     </div>
                 </div>
                 <div class="col-md-4">
@@ -564,13 +570,15 @@
                         <h5 class="text text--blogauthor">
                             Team W - 01 . 2021
                         </h5>
-                        <ul>
-                            <li>
-                                <a href="" class="button transition">
-                                    Interview
-                                </a>
-                            </li>
-                        </ul>
+                        <div class="categories">
+                            <ul>
+                                <li>
+                                    <a href="" class="button transition">
+                                        Interview
+                                    </a>
+                                </li>
+                            </ul>
+                        </div>
                     </div>
                 </div>
             </div>
@@ -581,7 +589,7 @@
             </div>
             <div class="row">
                 <div class="col-md-12 mt-5">
-                    <section class="marquee button button--noborder button--big">
+                    <section class="marquee marquee--border button button--noborder button--big">
                       <h4 class="text">
                         Releases, freebies, secrets. Join our Newsletter***Releases, freebies, secrets. Join our Newsletter
                       </h4>
