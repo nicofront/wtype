@@ -3,7 +3,7 @@
 <body>
     <div class="stage stage--big mb-5 testerparent testerparent--noclass">
         <div class="menu">
-            <div class="container-xl">
+            <div class="container-xxl">
                 <div class="row">
                     <div class="col-lg-3 col-6 order-1 order-lg-1">
                         <a href="index.php" class="stage__title">
@@ -55,7 +55,7 @@
                 </div>
             </div>
         </div>
-        <div class="container-xl">
+        <div class="container-xxl">
             <div class="row">
                 <div class="col-md-12">
                     <div class="tester">
@@ -85,13 +85,15 @@
                                         </option>
                                     </select>
                                 </div>
-                                <div class="col-md-2 offset-md-5">
+                                <div class="col-md-1 u-center">
+                                    <a class="tester-switch tester--noclass"></a>               
+                                </div>
+                                <div class="col-md-3">
                                     <div class="slidecontainer">
                                       <input type="range" min="1" max="100" value="50" class="sliderrange">
                                     </div>
                                 </div>
-                                <div class="col-md-2 u-right">
-                                    <a class="tester-switch tester--noclass"></a>
+                                <div class="col-md-2 offset-md-3 u-right">
                                     <a href="single.php" class="button button--black">
                                         View font
                                     </a>
@@ -103,7 +105,7 @@
             </div>
         </div>
         <div class="stage__marquee">
-            <div class="container-xl">
+            <div class="container-xxl">
                 <div class="row">
                     <div class="col-md-12">
                         <section class="marquee button button--noborder button--big">
@@ -135,154 +137,7 @@
         </div>
     </div>
 
-    <section class="marquee mb-5">
-        <div class="logo is-animetion text text--wave">
-            <span>T</span>
-            <span>i</span>
-            <span>p</span>
-            <span>o</span>
-            <span>g</span>
-            <span>r</span>
-            <span>a</span>
-            <span>f</span>
-            <span>í</span>
-            <span>a</span>
-            <span>s</span>
-            <span> </span>
-            <span>D</span>
-            <span>e</span>
-            <span>s</span>
-            <span>t</span>
-            <span>a</span>
-            <span>c</span>
-            <span>a</span>
-            <span>d</span>
-            <span>a</span>
-            <span>s</span>
-        </div>
-        <div class="logo is-animetion text text--wave">
-            <span>T</span>
-            <span>i</span>
-            <span>p</span>
-            <span>o</span>
-            <span>g</span>
-            <span>r</span>
-            <span>a</span>
-            <span>f</span>
-            <span>í</span>
-            <span>a</span>
-            <span>s</span>
-            <span> </span>
-            <span>D</span>
-            <span>e</span>
-            <span>s</span>
-            <span>t</span>
-            <span>a</span>
-            <span>c</span>
-            <span>a</span>
-            <span>d</span>
-            <span>a</span>
-            <span>s</span>
-        </div>
-        <div class="logo is-animetion text text--wave">
-            <span>T</span>
-            <span>i</span>
-            <span>p</span>
-            <span>o</span>
-            <span>g</span>
-            <span>r</span>
-            <span>a</span>
-            <span>f</span>
-            <span>í</span>
-            <span>a</span>
-            <span>s</span>
-            <span> </span>
-            <span>D</span>
-            <span>e</span>
-            <span>s</span>
-            <span>t</span>
-            <span>a</span>
-            <span>c</span>
-            <span>a</span>
-            <span>d</span>
-            <span>a</span>
-            <span>s</span>
-        </div>
-        <div class="logo is-animetion text text--wave">
-            <span>T</span>
-            <span>i</span>
-            <span>p</span>
-            <span>o</span>
-            <span>g</span>
-            <span>r</span>
-            <span>a</span>
-            <span>f</span>
-            <span>í</span>
-            <span>a</span>
-            <span>s</span>
-            <span> </span>
-            <span>D</span>
-            <span>e</span>
-            <span>s</span>
-            <span>t</span>
-            <span>a</span>
-            <span>c</span>
-            <span>a</span>
-            <span>d</span>
-            <span>a</span>
-            <span>s</span>
-        </div>
-        <div class="logo is-animetion text text--wave">
-            <span>T</span>
-            <span>i</span>
-            <span>p</span>
-            <span>o</span>
-            <span>g</span>
-            <span>r</span>
-            <span>a</span>
-            <span>f</span>
-            <span>í</span>
-            <span>a</span>
-            <span>s</span>
-            <span> </span>
-            <span>D</span>
-            <span>e</span>
-            <span>s</span>
-            <span>t</span>
-            <span>a</span>
-            <span>c</span>
-            <span>a</span>
-            <span>d</span>
-            <span>a</span>
-            <span>s</span>
-        </div>
-        <div class="logo is-animetion text text--wave">
-            <span>T</span>
-            <span>i</span>
-            <span>p</span>
-            <span>o</span>
-            <span>g</span>
-            <span>r</span>
-            <span>a</span>
-            <span>f</span>
-            <span>í</span>
-            <span>a</span>
-            <span>s</span>
-            <span> </span>
-            <span>D</span>
-            <span>e</span>
-            <span>s</span>
-            <span>t</span>
-            <span>a</span>
-            <span>c</span>
-            <span>a</span>
-            <span>d</span>
-            <span>a</span>
-            <span>s</span>
-        </div>
-    </section>
-
-    <div class="container-xl mb-5" id="catalogo">
+    <div class="container-xl mb-5 mt-5" id="catalogo">
         <div class="row">
             <div class="col-md-12">
                 <div class="box box--orange testerparent">
@@ -306,14 +161,16 @@
                                         </option>
                                     </select>
                                 </div>
-                                <div class="col-md-2 offset-md-5">
+                                <div class="col-md-1 u-center">
+                                    <a class="tester-switch tester--noclass"></a>               
+                                </div>
+                                <div class="col-md-3">
                                     <div class="slidecontainer">
                                       <input type="range" min="1" max="100" value="50" class="sliderrange">
                                     </div>
                                 </div>
-                                <div class="col-md-2 u-right">
-                                    <a class="tester-switch tester--noclass"></a>
-                                    <a href="" class="button button--black">
+                                <div class="col-md-2 offset-md-3 u-right">
+                                    <a href="single.php" class="button button--black">
                                         View font
                                     </a>
                                 </div>
@@ -341,14 +198,16 @@
                                         </option>
                                     </select>
                                 </div>
-                                <div class="col-md-2 offset-md-5">
+                                <div class="col-md-1 u-center">
+                                    <a class="tester-switch tester--noclass"></a>               
+                                </div>
+                                <div class="col-md-3">
                                     <div class="slidecontainer">
                                       <input type="range" min="1" max="100" value="50" class="sliderrange">
                                     </div>
                                 </div>
-                                <div class="col-md-2 u-right">
-                                    <a class="tester-switch tester--noclass"></a>
-                                    <a href="" class="button button--black">
+                                <div class="col-md-2 offset-md-3 u-right">
+                                    <a href="single.php" class="button button--black">
                                         View font
                                     </a>
                                 </div>
@@ -358,160 +217,94 @@
                 </div>
             </div>
             <div class="col-md-12 u-center">
-                <a href="" class="button button--black u-upper button--big">Ver Catálogo</a>
+                <a href="" class="button u-upper button--big">All fonts</a>
+            </div>
+        </div>
+    </div>
+
+    <div class="home--slider mb-5" id="slider">
+        <div class="slider">
+            <div class="home--slider--banner" style="background-image: url('https://picsum.photos/seed/picsum/1200/600');">
+                <div class="container-xxl">
+                    <div class="row">
+                        <div class="col-md-12">
+                            <a href="" class="button">
+                                <h3 class="text text--black u-upper">Ir al Blog</h3>
+                                <p class="text text--small13">
+                                    Lorem ipsum dolor sit amet consectetur adipisicing elit. Reiciendis, voluptas.
+                                </p>
+                            </a>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+        <div class="slider">
+            <div class="home--slider--banner" style="background-image: url('https://picsum.photos/seed/picsum/1200/600');">
+                <div class="container-xxl">
+                    <div class="row">
+                        <div class="col-md-12">
+                            <a href="" class="button">
+                                <h3 class="text text--black u-upper">Ir al Blog</h3>
+                                <p class="text text--small13">
+                                    Lorem ipsum dolor sit amet consectetur adipisicing elit. Reiciendis, voluptas.
+                                    Lorem ipsum dolor sit amet consectetur adipisicing elit. Vitae, facilis.
+                                </p>
+                            </a>
+                        </div>
+                    </div>
+                </div>
             </div>
         </div>
     </div>
 
     <section class="marquee mb-5">
         <div class="logo is-animetion text text--wave">
-            <span>C</span>
-            <span>o</span>
-            <span>s</span>
-            <span>a</span>
-            <span>s</span>
-            <span> </span>
-            <span>W</span>
-            <span>T</span>
-            <span>F</span>
+            <span>B</span>
+            <span>L</span>
+            <span>O</span>
+            <span>G</span>
         </div>
         <div class="logo is-animetion text text--wave">
-            <span>C</span>
-            <span>o</span>
-            <span>s</span>
-            <span>a</span>
-            <span>s</span>
-            <span> </span>
-            <span>W</span>
-            <span>T</span>
-            <span>F</span>
+            <span>B</span>
+            <span>L</span>
+            <span>O</span>
+            <span>G</span>
         </div>
         <div class="logo is-animetion text text--wave">
-            <span>C</span>
-            <span>o</span>
-            <span>s</span>
-            <span>a</span>
-            <span>s</span>
-            <span> </span>
-            <span>W</span>
-            <span>T</span>
-            <span>F</span>
+            <span>B</span>
+            <span>L</span>
+            <span>O</span>
+            <span>G</span>
         </div>
         <div class="logo is-animetion text text--wave">
-            <span>C</span>
-            <span>o</span>
-            <span>s</span>
-            <span>a</span>
-            <span>s</span>
-            <span> </span>
-            <span>W</span>
-            <span>T</span>
-            <span>F</span>
+            <span>B</span>
+            <span>L</span>
+            <span>O</span>
+            <span>G</span>
         </div>
         <div class="logo is-animetion text text--wave">
-            <span>C</span>
-            <span>o</span>
-            <span>s</span>
-            <span>a</span>
-            <span>s</span>
-            <span> </span>
-            <span>W</span>
-            <span>T</span>
-            <span>F</span>
+            <span>B</span>
+            <span>L</span>
+            <span>O</span>
+            <span>G</span>
         </div>
         <div class="logo is-animetion text text--wave">
-            <span>C</span>
-            <span>o</span>
-            <span>s</span>
-            <span>a</span>
-            <span>s</span>
-            <span> </span>
-            <span>W</span>
-            <span>T</span>
-            <span>F</span>
+            <span>B</span>
+            <span>L</span>
+            <span>O</span>
+            <span>G</span>
+        </div>
+        <div class="logo is-animetion text text--wave">
+            <span>B</span>
+            <span>L</span>
+            <span>O</span>
+            <span>G</span>
         </div>
     </section>
 
-
-    <div class="home--slider" id="slider">
-        <div class="slider">
-            <a href="" class="home--slider--banner" style="background-image: url('https://picsum.photos/seed/picsum/1200/600');">
-                <div class="container-xl">
-                    <div class="row">
-                        <div class="col-md-12">
-                            <p class="text text--regular20 mb-4 transition">
-                                Lorem ipsum, <br>
-                                dolor, sit amet consectetur adipisicing elit.
-                            </p>
-                            <div class="button button--black button--big u-upper">
-                                Ir al Blog
-                            </div>
-                        </div>
-                    </div>
-                </div>
-            </a>
-        </div>
-        <div class="slider">
-            <a href="" class="home--slider--banner" style="background-image: url('https://picsum.photos/seed/picsum/1200/600');">
-                <div class="container-xl">
-                    <div class="row">
-                        <div class="col-md-12">
-                            <p class="text text--regular20 mb-4 transition">
-                                Lorem ipsum, <br>
-                                dolor, sit amet consectetur adipisicing elit.
-                            </p>
-                            <div class="button button--black button--big u-upper">
-                                Ir al Blog
-                            </div>
-                        </div>
-                    </div>
-                </div>
-            </a>
-        </div>
-    </div>
-
     <div class="blog mb-5" id="blogs">
-        <div class="container-xl">
-            <div class="row">
-                <div class="col-md-12">
-                    <div class="blog__post blog__post--big">
-                        <div class="col-md-8">
-                            <img src="https://picsum.photos/seed/picsum/1200/600" alt="Moncler">
-                        </div>
-                        <div class="col-md-4">
-                            <h3>
-                                <a href="" class="transition text text--blogtitle text--blogtitle--big">
-                                    Nueva Merch
-                                    de temporada
-                                    verano WTF
-                                </a>
-                            </h3>
-                            <h5 class="text text--blogauthor text--blogauthor--big">
-                                Team W - 01 . 2021
-                            </h5>
-                            <div class="categories">
-                                <ul>
-                                    <li>
-                                        <a href="" class="transition button">
-                                            Merch
-                                        </a>
-                                    </li>
-                                    <li>
-                                        <a href="" class="transition button">
-                                            Vida
-                                        </a>
-                                    </li>
-                                    <li>
-                                        <a href="" class="transition button button--circle">
-                                            +
-                                        </a>
-                                    </li>
-                                </ul>
-                            </div>
-                        </div>
-                    </div>
-                </div>
-            </div>
+        <div class="container-xxl">
             <div class="row">
                 <div class="col-md-4">
                     <div class="blog__post blog__post--small">
@@ -584,7 +377,7 @@
             </div>
             <div class="row">
                 <div class="col-md-12 u-center">
-                    <a href="" class="button button--black u-upper button--big">Ir al Blog</a>
+                    <a href="" class="button u-upper button--big">Blog</a>
                 </div>
             </div>
             <div class="row">
