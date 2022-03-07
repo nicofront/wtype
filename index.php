@@ -59,7 +59,7 @@
             <div class="row">
                 <div class="col-md-12">
                     <div class="tester">
-                        <div class="tester__sale">
+                        <div class="tester__saleoff">
                             <span>
                                 60% <br>
                                 OFF
@@ -94,7 +94,7 @@
                                     </div>
                                 </div>
                                 <div class="col-md-2 offset-md-3 u-right">
-                                    <a href="single.php" class="button button--black">
+                                    <a href="single.php" class="button">
                                         View font
                                     </a>
                                 </div>
@@ -140,8 +140,15 @@
     <div class="container-xl mb-5 mt-5" id="catalogo">
         <div class="row">
             <div class="col-md-12">
+                <h1 class="catalogo__title mb-5 u-upper text text--black">
+                    <span>Fav fonts</span>
+                    <span>Right now</span>
+                    <img src="https://c.tenor.com/RGDFz-rHPYAAAAAC/heart-th%E1%BA%A3.gif" alt="Heart">
+                </h1>
+            </div>
+            <div class="col-md-12">
                 <div class="box box--orange testerparent">
-                    <div class="tester">
+                    <div class="tester tester--new">
                         <h3 class="tester__title">
                             SAES GROTESK
                         </h3>
@@ -170,7 +177,7 @@
                                     </div>
                                 </div>
                                 <div class="col-md-2 offset-md-3 u-right">
-                                    <a href="single.php" class="button button--black">
+                                    <a href="single.php" class="button">
                                         View font
                                     </a>
                                 </div>
@@ -182,7 +189,10 @@
             <div class="col-md-12">
                 <div class="box box--blueborder testerparent">
                     <div class="tester">
-                        <textarea>ARP&#13;&#10;⇾ ⇾ ⇾</textarea>
+                        <h3 class="tester__title">
+                            SAES GROTESK
+                        </h3>
+                        <textarea>⇾ ARP</textarea>
                         <div class="tester__menu">
                             <div class="row">
                                 <div class="col-md-3">
@@ -207,7 +217,7 @@
                                     </div>
                                 </div>
                                 <div class="col-md-2 offset-md-3 u-right">
-                                    <a href="single.php" class="button button--black">
+                                    <a href="single.php" class="button">
                                         View font
                                     </a>
                                 </div>
@@ -228,7 +238,7 @@
                 <div class="container-xxl">
                     <div class="row">
                         <div class="col-md-12">
-                            <a href="" class="button">
+                            <a href="" class="button u-transition">
                                 <h3 class="text text--black u-upper">Ir al Blog</h3>
                                 <p class="text text--small13">
                                     Lorem ipsum dolor sit amet consectetur adipisicing elit. Reiciendis, voluptas.
@@ -244,7 +254,7 @@
                 <div class="container-xxl">
                     <div class="row">
                         <div class="col-md-12">
-                            <a href="" class="button">
+                            <a href="" class="button u-transition">
                                 <h3 class="text text--black u-upper">Ir al Blog</h3>
                                 <p class="text text--small13">
                                     Lorem ipsum dolor sit amet consectetur adipisicing elit. Reiciendis, voluptas.

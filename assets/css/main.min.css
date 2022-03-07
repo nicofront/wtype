@@ -7753,7 +7753,28 @@ header.header {
   font-size: 30px;
   line-height: 36px; }
 
-.tester .tester__sale {
+.tester .tester__title {
+  text-align: center; }
+
+.tester.tester--new {
+  position: relative; }
+
+.tester.tester--new:after {
+  content: 'new';
+  text-transform: uppercase;
+  display: inline-block;
+  position: absolute;
+  border: 2px solid #000;
+  border-radius: 50%;
+  padding: 15px 30px;
+  text-align: center;
+  top: -10px;
+  right: -10px; }
+
+.tester.tester--new .tester__title {
+  padding: 0 150px; }
+
+.tester .tester__saleoff {
   position: absolute;
   display: inline-block;
   right: 0;
@@ -7763,7 +7784,7 @@ header.header {
   border-radius: 50%;
   background-color: #000; }
 
-.tester .tester__sale span {
+.tester .tester__saleoff span {
   position: absolute;
   text-align: center;
   font-family: 'SaesGrotesk-ExtraBold';
@@ -7774,6 +7795,14 @@ header.header {
   left: 50%;
   font-weight: 700;
   transform: translate(-50%, -20%); }
+
+.tester select.button {
+  background-repeat: no-repeat;
+  background-position: 95% center;
+  background-image: url("../images/down-arrow.png");
+  background-size: 20px;
+  padding-left: 10px;
+  padding-right: 50px; }
 
 .tester textarea {
   width: 100%;
@@ -8580,8 +8609,11 @@ header.header {
 .home--slider .slick-dots {
   bottom: 30px;
   pointer-events: none;
-  text-align: right;
-  padding: 0 30px; }
+  max-width: 1400px;
+  width: 100%;
+  left: 50%;
+  transform: translate(-50%, 0);
+  text-align: right; }
 
 .home--slider .slick-dots li {
   display: inline-block;
@@ -8633,8 +8665,9 @@ header.header {
   padding: 20px;
   border-radius: 300px; }
 
-.home--slider .home--slider--banner:hover:after {
-  background-color: rgba(0, 0, 0, 0.8); }
+.home--slider .home--slider--banner .col-md-12 .button:hover {
+  background-color: #000;
+  border-color: #000; }
 
 .marquee {
   width: 100%;
@@ -8705,11 +8738,7 @@ header.header {
   margin-bottom: 50px; }
 
 .box.box--orange .tester .tester__title {
-  color: #fff;
   margin-bottom: 30px; }
-
-.box.box--orange .tester textarea {
-  color: #fff; }
 
 .box.box--red {
   background-color: #ae3d2d; }
@@ -8751,6 +8780,27 @@ header.header {
 .box.box--banner:hover:after {
   background-color: rgba(0, 0, 0, 0.8); }
 
+.catalogo__title {
+  text-align: center;
+  position: relative; }
+
+.catalogo__title span {
+  display: inline-block; }
+
+.catalogo__title span:first-child {
+  padding-right: 60px; }
+
+.catalogo__title span:nth-child(2) {
+  padding-left: 60px; }
+
+.catalogo__title img {
+  display: inline-block;
+  position: absolute;
+  top: 0;
+  left: 50%;
+  transform: translate(-50%, -15px);
+  width: 80px; }
+
 /* ====================================================== */
 /* Tester Required styles */
 .tester {
@@ -8762,7 +8812,28 @@ header.header {
   font-size: 30px;
   line-height: 36px; }
 
-.tester .tester__sale {
+.tester .tester__title {
+  text-align: center; }
+
+.tester.tester--new {
+  position: relative; }
+
+.tester.tester--new:after {
+  content: 'new';
+  text-transform: uppercase;
+  display: inline-block;
+  position: absolute;
+  border: 2px solid #000;
+  border-radius: 50%;
+  padding: 15px 30px;
+  text-align: center;
+  top: -10px;
+  right: -10px; }
+
+.tester.tester--new .tester__title {
+  padding: 0 150px; }
+
+.tester .tester__saleoff {
   position: absolute;
   display: inline-block;
   right: 0;
@@ -8772,7 +8843,7 @@ header.header {
   border-radius: 50%;
   background-color: #000; }
 
-.tester .tester__sale span {
+.tester .tester__saleoff span {
   position: absolute;
   text-align: center;
   font-family: 'SaesGrotesk-ExtraBold';
@@ -8783,6 +8854,14 @@ header.header {
   left: 50%;
   font-weight: 700;
   transform: translate(-50%, -20%); }
+
+.tester select.button {
+  background-repeat: no-repeat;
+  background-position: 95% center;
+  background-image: url("../images/down-arrow.png");
+  background-size: 20px;
+  padding-left: 10px;
+  padding-right: 50px; }
 
 .tester textarea {
   width: 100%;

@@ -12,7 +12,28 @@
     .tester__menu{
 
     }
-    .tester__sale{
+    .tester__title{
+        text-align: center;
+    }
+    &.tester--new{
+        position: relative;
+        &:after{
+            content: 'new';
+            text-transform: uppercase;
+            display: inline-block;
+            position: absolute;
+            border: 2px solid #000;
+            border-radius: 50%;
+            padding: 15px 30px;
+            text-align: center;
+            top: -10px;
+            right: -10px;
+        }
+        .tester__title{
+            padding: 0 150px;
+        }
+    }
+    .tester__saleoff{
         position: absolute;
         display: inline-block;
         right: 0;
@@ -33,6 +54,14 @@
             font-weight: 700;
             transform: translate(-50%, -20%);
         }
+    }
+    select.button{
+        background-repeat: no-repeat;
+        background-position: 95% center;
+        background-image: url('../images/down-arrow.png');
+        background-size: 20px;
+        padding-left: 10px;
+        padding-right: 50px;
     }
     textarea{
         width: 100%;
