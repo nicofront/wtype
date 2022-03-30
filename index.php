@@ -149,7 +149,7 @@
             <div class="col-md-12">
                 <div class="box box--orange testerparent">
                     <div class="tester tester--new">
-                        <h3 class="tester__title">
+                        <h3 class="tester__title text text--black">
                             SAES GROTESK
                         </h3>
                         <textarea>SAES GROTESK is a grotesque style font, inspired by classic fonts like Helvetica, Impact and Univers, with a dynamic, versatile and flexible personality. It ranges from Thin to Heavy, and from UltraCompressed to UltraExpanded.</textarea>
@@ -187,12 +187,12 @@
                 </div>
             </div>
             <div class="col-md-12">
-                <div class="box box--blueborder testerparent">
-                    <div class="tester">
-                        <h3 class="tester__title">
-                            SAES GROTESK
+                <div class="box box--skyblue testerparent">
+                    <div class="tester tester--sale">
+                        <h3 class="tester__title text text--black">
+                            ARP
                         </h3>
-                        <textarea>⇾ ARP</textarea>
+                        <textarea>SAES GROTESK is a grotesque style font, inspired by classic fonts like Helvetica, Impact and Univers, with a dynamic, versatile and flexible personality. It ranges from Thin to Heavy, and from UltraCompressed to UltraExpanded.</textarea>
                         <div class="tester__menu">
                             <div class="row">
                                 <div class="col-md-3">
@@ -227,7 +227,7 @@
                 </div>
             </div>
             <div class="col-md-12 u-center">
-                <a href="" class="button u-upper button--big">All fonts</a>
+                <a href="" class="button u-upper button--big text text--black">All fonts</a>
             </div>
         </div>
     </div>
@@ -239,7 +239,7 @@
                     <div class="row">
                         <div class="col-md-12">
                             <a href="" class="button u-transition">
-                                <h3 class="text text--black u-upper">Ir al Blog</h3>
+                                <h3 class="text text--bold u-upper mb-2">Ir al Blog</h3>
                                 <p class="text text--small13">
                                     Lorem ipsum dolor sit amet consectetur adipisicing elit. Reiciendis, voluptas.
                                 </p>
@@ -255,7 +255,7 @@
                     <div class="row">
                         <div class="col-md-12">
                             <a href="" class="button u-transition">
-                                <h3 class="text text--black u-upper">Ir al Blog</h3>
+                                <h3 class="text text--bold u-upper">Ir al Blog</h3>
                                 <p class="text text--small13">
                                     Lorem ipsum dolor sit amet consectetur adipisicing elit. Reiciendis, voluptas.
                                     Lorem ipsum dolor sit amet consectetur adipisicing elit. Vitae, facilis.
@@ -268,7 +268,7 @@
         </div>
     </div>
 
-    <section class="marquee mb-5">
+    <section class="marquee mb-5 mt-3">
         <div class="logo is-animetion text text--wave">
             <span>B</span>
             <span>L</span>
@@ -387,7 +387,7 @@
             </div>
             <div class="row">
                 <div class="col-md-12 u-center">
-                    <a href="" class="button u-upper button--big">Blog</a>
+                    <a href="" class="button u-upper button--big text text--black">Blog</a>
                 </div>
             </div>
             <div class="row">

@@ -1,5 +1,5 @@
 .box{
-	border-radius: 15px;
+	border-radius: 30px;
 	padding: 50px 50px;
 	&.box--blueborder{
 		border: 1px solid #007bff;
@@ -27,6 +27,17 @@
 	}
 	&.box--orange{
 		background-color: #ff7000;
+		margin-bottom: 50px;
+		.tester{
+			.tester__title{
+				margin-bottom: 30px;
+			}
+			textarea{
+			}
+		}
+	}
+	&.box--skyblue{
+		background-color: #2aa1ff;
 		margin-bottom: 50px;
 		.tester{
 			.tester__title{
