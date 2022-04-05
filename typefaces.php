@@ -11,40 +11,7 @@
                         </a>
                     </div>
                     <div class="col-lg-6 col-12 order-3 order-lg-2">
-                        <div class="menu__table">
-                            <div class="menu__tr">
-                                <div class="menu__td">
-                                    <a href="typefaces.php">
-                                        Typefaces
-                                    </a>
-                                </div>
-                                <div class="menu__td">
-                                    <a href="about.php">
-                                        About
-                                    </a>
-                                </div>
-                                <div class="menu__td">
-                                    <a href="blog.php">
-                                        Blog
-                                    </a>
-                                </div>
-                                <div class="menu__td">
-                                    <a href="licences.php">
-                                        Licences
-                                    </a>
-                                </div>
-                                <div class="menu__td">
-                                    <a href="contact.php">
-                                        Contact
-                                    </a>
-                                </div>
-                                <div class="menu__td">
-                                    <a href="">
-                                        Sign In
-                                    </a>
-                                </div>
-                            </div>
-                        </div>
+                        <?php include('partials/navbar.php'); ?>
                     </div>
                     <div class="col-lg-3 col-6 order-2 order-lg-3 u-right">
                         <a href="index.php" class="stage__logo">
@@ -123,7 +90,7 @@
 
     <div class="container-xl mb-5">
         <div class="row">
-            <div class="col-md-2">
+            <div class="col-md-2 col-sm-6">
                 <ul class="text text--list">
                     <li>
                         <a href="">Adorno Noveau</a>
@@ -157,7 +124,7 @@
                     </li>
                 </ul>
             </div>
-            <div class="col-md-2">
+            <div class="col-md-2 col-sm-6">
                 <ul class="text text--list">
                     <li>
                         <a href="">Adorno Noveau</a>
@@ -191,7 +158,7 @@
                     </li>
                 </ul>
             </div>
-            <div class="col-md-2">
+            <div class="col-md-2 col-sm-6">
                 <ul class="text text--list">
                     <li>
                         <a href="">Adorno Noveau</a>
@@ -225,7 +192,7 @@
                     </li>
                 </ul>
             </div>
-            <div class="col-md-2">
+            <div class="col-md-2 col-sm-6">
                 <ul class="text text--list">
                     <li>
                         <a href="">Adorno Noveau</a>
@@ -259,7 +226,7 @@
                     </li>
                 </ul>
             </div>
-            <div class="col-md-2">
+            <div class="col-md-2 col-sm-6">
                 <ul class="text text--list">
                     <li>
                         <a href="">Urbani</a>
@@ -280,111 +247,15 @@
                 </div>
                 <div class="typoitem mb-4">
                     <div class="row">
-                        <div class="col-md-3 mb-3 pt-3">
+                        <div class="col-lg-3 mb-3 pt-3">
                             <h3 class="text text--regular20 text--black">
                                 Adorno Noveau
                             </h3>
                         </div>
-                        <div class="col-md-6 mb-3 u-center">
+                        <div class="col-lg-6 col-sm-8 col-12 mb-3 u-center">
                             <h4 class="text text--big100 text--black">Barroco</h4>
                         </div>
-                        <div class="col-md-3 pt-3">
-                            <div class="u-right">
-                                <p class="pb-4 text text--regular20">
-                                    12 styles <br>
-                                    2 subfamilies <br>
-                                    <a href="">Free Font</a>
-                                </p>
-                                <a href="" target="_blank" class="button u-upper">
-                                    View Font
-                                </a>
-                            </div>
-                        </div>
-                    </div>
-                </div>
-                <div class="typoitem mb-4">
-                    <div class="row">
-                        <div class="col-md-3 mb-3 pt-3">
-                            <h3 class="text text--regular20 text--black">
-                                Adorno Noveau
-                            </h3>
-                        </div>
-                        <div class="col-md-6 mb-3 u-center">
-                            <h4 class="text text--big100 text--black">Barroco</h4>
-                        </div>
-                        <div class="col-md-3 pt-3">
-                            <div class="u-right">
-                                <p class="pb-4 text text--regular20">
-                                    12 styles <br>
-                                    2 subfamilies <br>
-                                    <a href="">Free Font</a>
-                                </p>
-                                <a href="" target="_blank" class="button u-upper">
-                                    View Font
-                                </a>
-                            </div>
-                        </div>
-                    </div>
-                </div>
-                <div class="typoitem mb-4">
-                    <div class="row">
-                        <div class="col-md-3 mb-3 pt-3">
-                            <h3 class="text text--regular20 text--black">
-                                Adorno Noveau
-                            </h3>
-                        </div>
-                        <div class="col-md-6 mb-3 u-center">
-                            <h4 class="text text--big100 text--black">Barroco</h4>
-                        </div>
-                        <div class="col-md-3 pt-3">
-                            <div class="u-right">
-                                <p class="pb-4 text text--regular20">
-                                    12 styles <br>
-                                    2 subfamilies <br>
-                                    <a href="">Free Font</a>
-                                </p>
-                                <a href="" target="_blank" class="button u-upper">
-                                    View Font
-                                </a>
-                            </div>
-                        </div>
-                    </div>
-                </div>
-                <div class="typoitem mb-4">
-                    <div class="row">
-                        <div class="col-md-3 mb-3 pt-3">
-                            <h3 class="text text--regular20 text--black">
-                                Adorno Noveau
-                            </h3>
-                        </div>
-                        <div class="col-md-6 mb-3 u-center">
-                            <h4 class="text text--big100 text--black">Barroco</h4>
-                        </div>
-                        <div class="col-md-3 pt-3">
-                            <div class="u-right">
-                                <p class="pb-4 text text--regular20">
-                                    12 styles <br>
-                                    2 subfamilies <br>
-                                    <a href="">Free Font</a>
-                                </p>
-                                <a href="" target="_blank" class="button u-upper">
-                                    View Font
-                                </a>
-                            </div>
-                        </div>
-                    </div>
-                </div>
-                <div class="typoitem mb-4">
-                    <div class="row">
-                        <div class="col-md-3 mb-3 pt-3">
-                            <h3 class="text text--regular20 text--black">
-                                Adorno Noveau
-                            </h3>
-                        </div>
-                        <div class="col-md-6 mb-3 u-center">
-                            <h4 class="text text--big100 text--black">Barroco</h4>
-                        </div>
-                        <div class="col-md-3 pt-3">
+                        <div class="col-lg-3 col-sm-4 col-12 pt-3">
                             <div class="u-right">
                                 <p class="pb-4 text text--regular20">
                                     12 styles <br>

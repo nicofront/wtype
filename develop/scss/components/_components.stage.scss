@@ -54,11 +54,18 @@
 		.marquee{
 			box-shadow: 1px 1px 1px 0px rgba(0,0,0,0.10);
 		}
+		@media only screen and (max-width: 768px) {
+			position: relative;
+			bottom: 0;
+		}
 	}
 	.menu{
 		padding-top: 15px;
 		padding-bottom: 15px;
 		margin-bottom: 30px;
+		@media only screen and (max-width: 991px) {
+			margin-bottom: 10px;
+		}
 		.menu__table{
 			display: table;
 			width: 100%;
@@ -75,7 +82,7 @@
 				.menu__td{
 					display: table-cell;
 					vertical-align: middle;
-					width: 16.5%;
+					width: 15%;
 					text-align: center;
 					a{
 						font-size: 14px;
@@ -87,7 +94,7 @@
 						border-bottom: 1px solid #fff;
 						a{
 							display: block;
-							background: #007bff;
+							background: #009540;
 							color: #fff;
 							padding: 10px 5px;
 						}
@@ -101,6 +108,9 @@
 			padding: 5px 30px 20px;
 			font-size: 120px;
 			height: 400px;
+			@media only screen and (max-width: 767px) {
+				padding: 5px 0px 20px;
+			}
 		}
 	}
 }

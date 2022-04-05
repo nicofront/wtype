@@ -1,6 +1,9 @@
 .box{
 	border-radius: 30px;
 	padding: 50px 50px;
+	@media only screen and (max-width: 767px) {
+		padding: 30px;
+	}
 	&.box--blueborder{
 		border: 1px solid #007bff;
 		margin-bottom: 50px;
@@ -96,15 +99,18 @@
 }
 
 .catalogo__title{
-	text-align: center;
 	position: relative;
+	display: inline-block;
+	margin-bottom: 40px;
 	span{
 		display: inline-block;
+		width: 325px;
+		text-align: center;
 		&:first-child{
-			padding-right: 60px;
+			padding-right: 90px;
 		}
 		&:nth-child(2){
-			padding-left: 60px;
+			padding-left: 90px;
 		}
 	}
 	img{
@@ -112,7 +118,26 @@
 		position: absolute;
 		top: 0;
 		left: 50%;
-		transform: translate(-50%, -15px);
-		width: 80px;
+		transform: translate(-50%, -60px);
+		width: 160px;
+	}
+	@media only screen and (max-width: 768px) {
+		padding-right: 100px;
+		display: block;
+		margin-bottom: 0;
+		span{
+			text-align: left;
+			width: 100%;
+			&:first-child, &:nth-child(2){
+				padding: 0;
+			}
+		}
+		img{
+			width: 100px;
+			left: inherit;
+			right: 0;
+			top: 50%;
+			transform: translate(0%, -50%);
+		}
 	}
 }

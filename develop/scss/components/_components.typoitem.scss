@@ -1,0 +1,20 @@
+.typoitem{
+	@media only screen and (max-width: 767px) {
+		padding: 20px;
+		padding-top: 5px;
+		border-radius: 20px;
+		background-color: rgba(0,0,0,0.15);
+		.u-center{
+			text-align: left;
+		}
+		.text.text--big100{
+			font-size: 48px;
+			line-height: 1.1;
+		}
+	}
+	@media only screen and (max-width: 575px) {
+		.u-right{
+			text-align: left;
+		}
+	}
+}

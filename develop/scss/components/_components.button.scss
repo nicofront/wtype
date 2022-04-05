@@ -38,7 +38,7 @@
 		}
 	}
 	&.button--big{
-		padding: 8px 60px;
+		padding: 5px 60px;
 		border-radius: 43px;
 		font-size: 32px;
 		line-height: 39px;	
@@ -59,5 +59,12 @@
 	}
 	&.button--square{
 		border-radius: 0;
+	}
+}
+
+a.button{
+	&:hover{
+		background-color: #000;
+		color: #fff;
 	}
 }

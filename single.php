@@ -3,7 +3,7 @@
 <body>
     <div class="stage stage--big mb-5 testerparent testerparent--noclass">
         <div class="menu">
-            <div class="container-xl">
+            <div class="container-xxl">
                 <div class="row">
                     <div class="col-lg-3 col-6 order-1 order-lg-1">
                         <a href="index.php" class="stage__title">
@@ -11,40 +11,7 @@
                         </a>
                     </div>
                     <div class="col-lg-6 col-12 order-3 order-lg-2">
-                        <div class="menu__table">
-                            <div class="menu__tr">
-                                <div class="menu__td">
-                                    <a href="typefaces.php">
-                                        Typefaces
-                                    </a>
-                                </div>
-                                <div class="menu__td">
-                                    <a href="about.php">
-                                        About
-                                    </a>
-                                </div>
-                                <div class="menu__td">
-                                    <a href="blog.php">
-                                        Blog
-                                    </a>
-                                </div>
-                                <div class="menu__td">
-                                    <a class="text text--small13" href="licences.php">
-                                        Licences
-                                    </a>
-                                </div>
-                                <div class="menu__td">
-                                    <a class="text text--small13" href="contact.php">
-                                        Contact
-                                    </a>
-                                </div>
-                                <div class="menu__td">
-                                    <a class="text text--small13" href="">
-                                        Sign In
-                                    </a>
-                                </div>
-                            </div>
-                        </div>
+                        <?php include('partials/navbar.php'); ?>
                     </div>
                     <div class="col-lg-3 col-6 order-2 order-lg-3 u-right">
                         <a href="" id="sandwich"></a>
@@ -55,11 +22,11 @@
                 </div>
             </div>
         </div>
-        <div class="container-xl">
+        <div class="container-xxl">
             <div class="row">
                 <div class="col-md-12">
                     <div class="tester">
-                        <div class="tester__sale">
+                        <div class="tester__saleoff">
                             <span>
                                 60% <br>
                                 OFF
@@ -85,19 +52,47 @@
                                         </option>
                                     </select>
                                 </div>
-                                <div class="col-md-2 offset-md-5">
+                                <div class="col-md-1 col-3 u-center">
+                                    <a class="tester-switch tester--noclass"></a>               
+                                </div>
+                                <div class="col-lg-3 col-md-4 col-9">
                                     <div class="slidecontainer">
                                       <input type="range" min="1" max="100" value="50" class="sliderrange">
                                     </div>
                                 </div>
-                                <div class="col-md-2 u-right">
-                                    <a class="tester-switch tester--noclass"></a>
-                                    <a href="single.php" class="button button--black">
-                                        View font
-                                    </a>
-                                </div>
                             </div>
                         </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+        <div class="stage__marquee">
+            <div class="container-xxl">
+                <div class="row">
+                    <div class="col-md-12">
+                        <section class="marquee button button--noborder button--big">
+                          <h4 class="text">
+                            Oferta de gallos 50% termina el 5 de diciembre a las 00.00 hrs.
+                          </h4>
+                          <h4 class="text">
+                            Oferta de gallos 50% termina el 5 de diciembre a las 00.00 hrs.
+                          </h4>
+                          <h4 class="text">
+                            Oferta de gallos 50% termina el 5 de diciembre a las 00.00 hrs.
+                          </h4>
+                          <h4 class="text">
+                            Oferta de gallos 50% termina el 5 de diciembre a las 00.00 hrs.
+                          </h4>
+                          <h4 class="text">
+                            Oferta de gallos 50% termina el 5 de diciembre a las 00.00 hrs.
+                          </h4>
+                          <h4 class="text">
+                            Oferta de gallos 50% termina el 5 de diciembre a las 00.00 hrs.
+                          </h4>
+                          <h4 class="text">
+                            Oferta de gallos 50% termina el 5 de diciembre a las 00.00 hrs.
+                          </h4>
+                        </section>
                     </div>
                 </div>
             </div>
@@ -135,17 +130,17 @@
                 </p>
                 <div class="pb-5">
                     <div class="mb-2">
-                        <a href="" target="_blank" class="button button--full button--black">
+                        <a href="" target="_blank" class="button transition button--full button--black">
                             Herokid specimen PDF
                         </a>
                     </div>
                     <div class="mb-2">
-                        <a href="" target="_blank" class="button button--full">
+                        <a href="" target="_blank" class="button transition button--full">
                             Download trial
                         </a>
                     </div>
                     <div class="mb-2">
-                        <a href="" target="_blank" class="button button--full">
+                        <a href="" target="_blank" class="button transition button--full">
                             Blog entry
                         </a>
                     </div>
@@ -513,7 +508,7 @@
                 </div>
             </div>
             <div class="col-md-12 mb-5">
-                <a href="" target="_blank" class="button button--black">
+                <a href="" target="_blank" class="button">
                     Show all glyphs
                 </a>
             </div>
@@ -689,32 +684,32 @@
                 </h3>
                 <div class="pb-5">
                     <div class="mb-2">
-                        <a href="" target="_blank" class="button button--full">
+                        <a href="" target="_blank" class="button transition button--full">
                             Logo / Wordmark extension
                         </a>
                     </div>
                     <div class="mb-2">
-                        <a href="" target="_blank" class="button button--full">
+                        <a href="" target="_blank" class="button transition button--full">
                             App / eBook
                         </a>
                     </div>
                     <div class="mb-2">
-                        <a href="" target="_blank" class="button button--full">
+                        <a href="" target="_blank" class="button transition button--full">
                             Digital Ads
                         </a>
                     </div>
                     <div class="mb-2">
-                        <a href="" target="_blank" class="button button--full">
+                        <a href="" target="_blank" class="button transition button--full">
                             Broadcasting / Streaming
                         </a>
                     </div>
                     <div class="mb-2">
-                        <a href="" target="_blank" class="button button--full">
+                        <a href="" target="_blank" class="button transition button--full">
                             Corporate
                         </a>
                     </div>
                     <div class="mb-2">
-                        <a href="" target="_blank" class="button button--full">
+                        <a href="" target="_blank" class="button transition button--full">
                             Descuento estudiante
                         </a>
                     </div>
