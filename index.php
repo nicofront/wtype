@@ -11,40 +11,7 @@
                         </a>
                     </div>
                     <div class="col-lg-6 col-12 order-3 order-lg-2">
-                        <div class="menu__table">
-                            <div class="menu__tr">
-                                <div class="menu__td">
-                                    <a href="typefaces.php">
-                                        Typefaces
-                                    </a>
-                                </div>
-                                <div class="menu__td">
-                                    <a href="about.php">
-                                        About
-                                    </a>
-                                </div>
-                                <div class="menu__td">
-                                    <a href="blog.php">
-                                        Blog
-                                    </a>
-                                </div>
-                                <div class="menu__td">
-                                    <a class="text text--small13" href="licences.php">
-                                        Licences
-                                    </a>
-                                </div>
-                                <div class="menu__td">
-                                    <a class="text text--small13" href="contact.php">
-                                        Contact
-                                    </a>
-                                </div>
-                                <div class="menu__td">
-                                    <a class="text text--small13" href="">
-                                        Sign In
-                                    </a>
-                                </div>
-                            </div>
-                        </div>
+                        <?php include('partials/navbar.php'); ?>
                     </div>
                     <div class="col-lg-3 col-6 order-2 order-lg-3 u-right">
                         <a href="" id="sandwich"></a>
@@ -85,16 +52,16 @@
                                         </option>
                                     </select>
                                 </div>
-                                <div class="col-md-1 u-center">
+                                <div class="col-md-1 col-3 u-center">
                                     <a class="tester-switch tester--noclass"></a>               
                                 </div>
-                                <div class="col-md-3">
+                                <div class="col-lg-3 col-md-4 col-9">
                                     <div class="slidecontainer">
                                       <input type="range" min="1" max="100" value="50" class="sliderrange">
                                     </div>
                                 </div>
-                                <div class="col-md-2 offset-md-3 u-right">
-                                    <a href="single.php" class="button">
+                                <div class="col-lg-2 col-md-3 offset-lg-3 offset-md-1 u-right">
+                                    <a href="single.php" class="button text text--black u-upper">
                                         View font
                                     </a>
                                 </div>
@@ -139,11 +106,11 @@
 
     <div class="container-xl mb-5 mt-5" id="catalogo">
         <div class="row">
-            <div class="col-md-12">
-                <h1 class="catalogo__title mb-5 u-upper text text--black">
+            <div class="col-md-12 u-center mb-5">
+                <h1 class="catalogo__title u-upper text text--black">
                     <span>Fav fonts</span>
                     <span>Right now</span>
-                    <img src="https://c.tenor.com/RGDFz-rHPYAAAAAC/heart-th%E1%BA%A3.gif" alt="Heart">
+                    <img src="assets/images/hearth-280.gif" alt="Heart">
                 </h1>
             </div>
             <div class="col-md-12">
@@ -153,7 +120,7 @@
                             SAES GROTESK
                         </h3>
                         <textarea>SAES GROTESK is a grotesque style font, inspired by classic fonts like Helvetica, Impact and Univers, with a dynamic, versatile and flexible personality. It ranges from Thin to Heavy, and from UltraCompressed to UltraExpanded.</textarea>
-                        <div class="tester__menu">
+                        <div class="tester__menu mb-5">
                             <div class="row">
                                 <div class="col-md-3">
                                     <select name="" class="button button--alpha button--left button--full">
@@ -168,16 +135,16 @@
                                         </option>
                                     </select>
                                 </div>
-                                <div class="col-md-1 u-center">
+                                <div class="col-md-1 col-3 u-center">
                                     <a class="tester-switch tester--noclass"></a>               
                                 </div>
-                                <div class="col-md-3">
+                                <div class="col-lg-3 col-md-4 col-9">
                                     <div class="slidecontainer">
                                       <input type="range" min="1" max="100" value="50" class="sliderrange">
                                     </div>
                                 </div>
-                                <div class="col-md-2 offset-md-3 u-right">
-                                    <a href="single.php" class="button">
+                                <div class="col-lg-2 col-md-3 offset-lg-3 offset-md-1 u-right">
+                                    <a href="single.php" class="button text text--black u-upper">
                                         View font
                                     </a>
                                 </div>
@@ -193,7 +160,7 @@
                             ARP
                         </h3>
                         <textarea>SAES GROTESK is a grotesque style font, inspired by classic fonts like Helvetica, Impact and Univers, with a dynamic, versatile and flexible personality. It ranges from Thin to Heavy, and from UltraCompressed to UltraExpanded.</textarea>
-                        <div class="tester__menu">
+                        <div class="tester__menu mb-5">
                             <div class="row">
                                 <div class="col-md-3">
                                     <select name="" class="button button--alpha button--left button--full">
@@ -208,16 +175,16 @@
                                         </option>
                                     </select>
                                 </div>
-                                <div class="col-md-1 u-center">
+                                <div class="col-md-1 col-3 u-center">
                                     <a class="tester-switch tester--noclass"></a>               
                                 </div>
-                                <div class="col-md-3">
+                                <div class="col-lg-3 col-md-4 col-9">
                                     <div class="slidecontainer">
                                       <input type="range" min="1" max="100" value="50" class="sliderrange">
                                     </div>
                                 </div>
-                                <div class="col-md-2 offset-md-3 u-right">
-                                    <a href="single.php" class="button">
+                                <div class="col-lg-2 col-md-3 offset-lg-3 offset-md-1 u-right">
+                                    <a href="single.php" class="button text text--black u-upper">
                                         View font
                                     </a>
                                 </div>
@@ -227,11 +194,14 @@
                 </div>
             </div>
             <div class="col-md-12 u-center">
-                <a href="" class="button u-upper button--big text text--black">All fonts</a>
+                <a href="" class="button u-upper button--big text text--black u-transition">All fonts</a>
             </div>
         </div>
     </div>
 
+    <div id="home--sliderlogo" class="mb-4">
+        <img src="assets/images/wtf-800.gif" alt="WTF">
+    </div>
     <div class="home--slider mb-5" id="slider">
         <div class="slider">
             <div class="home--slider--banner" style="background-image: url('https://picsum.photos/seed/picsum/1200/600');">
@@ -239,8 +209,8 @@
                     <div class="row">
                         <div class="col-md-12">
                             <a href="" class="button u-transition">
-                                <h3 class="text text--bold u-upper mb-2">Ir al Blog</h3>
-                                <p class="text text--small13">
+                                <h3 class="text text--bold text--big30 u-upper mb-2">Ir al Blog</h3>
+                                <p class="text text--small15">
                                     Lorem ipsum dolor sit amet consectetur adipisicing elit. Reiciendis, voluptas.
                                 </p>
                             </a>
@@ -255,10 +225,9 @@
                     <div class="row">
                         <div class="col-md-12">
                             <a href="" class="button u-transition">
-                                <h3 class="text text--bold u-upper">Ir al Blog</h3>
-                                <p class="text text--small13">
+                                <h3 class="text text--bold text--big30 u-upper mb-2">Ir al Blog</h3>
+                                <p class="text text--small15">
                                     Lorem ipsum dolor sit amet consectetur adipisicing elit. Reiciendis, voluptas.
-                                    Lorem ipsum dolor sit amet consectetur adipisicing elit. Vitae, facilis.
                                 </p>
                             </a>
                         </div>
@@ -268,7 +237,7 @@
         </div>
     </div>
 
-    <section class="marquee mb-5 mt-3">
+    <section class="marquee mb-5 mt-5">
         <div class="logo is-animetion text text--wave">
             <span>B</span>
             <span>L</span>
@@ -313,14 +282,14 @@
         </div>
     </section>
 
-    <div class="blog mb-5" id="blogs">
+    <div class="blog mb-5 pb-5" id="blogs">
         <div class="container-xxl">
             <div class="row">
                 <div class="col-md-4">
                     <div class="blog__post blog__post--small">
                         <img src="https://picsum.photos/seed/picsum/1200/600" alt="Moncler">
                         <h4>
-                            <a href="" class="transition text text--blogtitle">
+                            <a href="" class="transition text text--blogtitle u-transition">
                                 Nueva Merch
                                 de temporada
                                 verano WTF
@@ -332,7 +301,7 @@
                         <div class="categories">
                             <ul>
                                 <li>
-                                    <a href="" class="button transition">
+                                    <a href="" class="button u-transition">
                                         Interview
                                     </a>
                                 </li>
@@ -344,7 +313,7 @@
                     <div class="blog__post blog__post--small">
                         <img src="https://picsum.photos/seed/picsum/1200/600" alt="Moncler">
                         <h4>
-                            <a href="" class="transition text text--blogtitle">
+                            <a href="" class="transition text text--blogtitle u-transition">
                                 Lorem ipsum dolor sit amet consectetur adipisicing, elit. Harum, non.
                             </a>
                         </h4>
@@ -354,7 +323,7 @@
                         <div class="categories">
                             <ul>
                                 <li>
-                                    <a href="" class="button transition">
+                                    <a href="" class="button u-transition">
                                         Interview
                                     </a>
                                 </li>
@@ -366,7 +335,7 @@
                     <div class="blog__post blog__post--small">
                         <img src="https://picsum.photos/seed/picsum/1200/600" alt="Moncler">
                         <h4>
-                            <a href="" class="transition text text--blogtitle">
+                            <a href="" class="transition text text--blogtitle u-transition">
                                 Lorem ipsum dolor sit amet consectetur adipisicing elit. Molestiae aliquid ut sed tempore velit explicabo, vel cupiditate sequi odio voluptate.
                             </a>
                         </h4>
@@ -376,7 +345,7 @@
                         <div class="categories">
                             <ul>
                                 <li>
-                                    <a href="" class="button transition">
+                                    <a href="" class="button u-transition">
                                         Interview
                                     </a>
                                 </li>
@@ -386,8 +355,8 @@
                 </div>
             </div>
             <div class="row">
-                <div class="col-md-12 u-center">
-                    <a href="" class="button u-upper button--big text text--black">Blog</a>
+                <div class="col-md-12 u-center mb-5">
+                    <a href="" class="button u-upper button--big text text--black u-transition">Blog</a>
                 </div>
             </div>
             <div class="row">

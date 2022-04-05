@@ -11,40 +11,7 @@
                         </a>
                     </div>
                     <div class="col-lg-6 col-12 order-3 order-lg-2">
-                        <div class="menu__table">
-                            <div class="menu__tr">
-                                <div class="menu__td">
-                                    <a href="typefaces.php">
-                                        Typefaces
-                                    </a>
-                                </div>
-                                <div class="menu__td">
-                                    <a href="about.php">
-                                        About
-                                    </a>
-                                </div>
-                                <div class="menu__td">
-                                    <a href="blog.php">
-                                        Blog
-                                    </a>
-                                </div>
-                                <div class="menu__td">
-                                    <a href="licences.php">
-                                        Licences
-                                    </a>
-                                </div>
-                                <div class="menu__td">
-                                    <a href="contact.php">
-                                        Contact
-                                    </a>
-                                </div>
-                                <div class="menu__td">
-                                    <a href="">
-                                        Sign In
-                                    </a>
-                                </div>
-                            </div>
-                        </div>
+                        <?php include('partials/navbar.php'); ?>
                     </div>
                     <div class="col-lg-3 col-6 order-2 order-lg-3 u-right">
                         <a href="index.php" class="stage__logo">
