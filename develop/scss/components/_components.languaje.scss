@@ -1,0 +1,13 @@
+.languaje{
+	.languaje__setting{
+		.button--black{
+			pointer-events: none;
+		}
+	}
+	.languaje__block{
+		display: none;
+		&.languaje__block--active{
+			display: block;
+		}
+	}
+}
