@@ -1,18 +1,18 @@
 body{
-	font-family: 'SaesGrotesk';
+	font-family: 'ArminGrotesk';
 }
 
 .text{
-	font-family: 'SaesGrotesk';
+	font-family: 'ArminGrotesk';
 	margin-bottom: 0px;
-	&.text--bold{
-		font-family: 'SaesGrotesk-Bold';
+	&.text--bold, .text--bold{
+		font-family: 'ArminGrotesk-SemiBold';
 	}
-	&.text--black{
-		font-family: 'SaesGrotesk-Black';
+	&.text--black, .text--black{
+		font-family: 'ArminGrotesk-Black';
 	}
-	&.text--extrabold{
-		font-family: 'SaesGrotesk-ExtraBold';
+	&.text--extrabold, .text--extrabold{
+		font-family: 'ArminGrotesk-UltraBold';
 	}
 	&.text--small12{
 		font-size: 12px;
@@ -30,13 +30,13 @@ body{
 		font-size: 15px;
 		line-height: 20px;
 	}
-	&.text--regular17{
-		font-size: 17px;
-		line-height: 20px;
-	}
 	&.text--regular16{
 		font-size: 16px;
 		line-height: 26px;
+	}
+	&.text--regular17{
+		font-size: 17px;
+		line-height: 20px;
 	}
 	&.text--regular20{
 		font-size: 20px;
@@ -45,6 +45,14 @@ body{
 	&.text--big30{
 		font-size: 30px;
 		line-height: 36px;
+	}
+	&.text--big40{
+		font-size: 40px;
+		line-height: 60px;
+	}
+	&.text--big50{
+		font-size: 50px;
+		line-height: 70px;
 	}
 	&.text--big100{
 		font-size: 100px;
@@ -58,7 +66,7 @@ body{
 	&.text--blogtitle{
 		font-size: 32px;
 		line-height: 38px;
-		font-weight: 400;
+		font-family: "ArminGrotesk-SemiBold";
 		&.text--blogtitle--big{
 			font-size: 51px;
 			line-height: 61px;
@@ -83,8 +91,10 @@ body{
 	}
 	a{
 		text-decoration: none;
+		color: #ff58ad;
 		&:hover{
-			color: #007bff;
+			text-decoration: underline;
+			color: #ff58ad;
 		}
 	}
 }

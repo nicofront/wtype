@@ -3,8 +3,15 @@
 		label{
 			font-size: 15px;
 			line-height: 20px;
+			a{
+				color: #848484;
+				text-decoration: none;
+				&:hover{
+					text-decoration: underline;
+				}
+			}
 		}
-		input[type="text"], textarea{
+		input[type="text"], input[type="password"], textarea{
 			display: block;
 			width: 100%;
 			border: 1px solid #000;
@@ -22,7 +29,7 @@
 			}
 		}
 		&.form__item--total{
-			font-family: 'SaesGrotesk-Black';
+			font-family: 'ArminGrotesk-SemiBold';
 			border: 1px solid #000;
 			position: relative;
 			display: block;
@@ -67,8 +74,8 @@
 			}
 			.form__item--simpleradio{
 				display: inline-block;
-				width: 32px;
-				height: 32px;
+				width: 24px;
+				height: 24px;
 				border: 1px solid #000;
 				border-radius: 50%;
 				position: absolute;
@@ -77,21 +84,23 @@
 			}
 			.form__item--simplelabel{
 				font-size: 18px;
-				line-height: 32px;
+				line-height: 24px;
 				span{
-					font-family: 'SaesGrotesk-Black';
+					font-family: 'ArminGrotesk-Black';
 				}
 			}
 			input:checked + label{
 				.form__item--simpleradio{
+					background-color: #ff58ad;
+					border-color: #ff58ad;
 					&:after{
 						content: '';
-						display: inline-block;
+						display: none;
 						position: absolute;
-						background-color: #000;
+						background-color: #ff58ad;
 						border-radius: 50%;
-						width: 22px;
-						height: 22px;
+						width: 25px;
+						height: 25px;
 						top: 50%;
 						left: 50%;
 						transform: translate(-50%, -50%);

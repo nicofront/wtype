@@ -4,9 +4,12 @@
 	border: 1px solid #000;
 	text-decoration: none;
 	text-align: center;
-	padding: 2px 30px;
+	padding: 4px 20px;
 	font-size: 18px;
 	line-height: 21px;
+	+.button{
+		margin-left: 5px;
+	}
 	&.button--alpha{
 		background-color: rgba(0,0,0,0);
 	}
@@ -26,6 +29,12 @@
 	}
 	&.button--upper{
 		text-transform: uppercase;
+	}
+	&.button--p40{
+		padding: 4px 40px;
+	}
+	&.button--p60{
+		padding: 4px 60px;
 	}
 	&.button--medium{
 		padding: 12px 60px;

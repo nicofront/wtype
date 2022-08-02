@@ -5,24 +5,27 @@
 	.glyph__table{
 		display: table;
 		width: 100%;
+		border-collapse: separate;
+		border-spacing: 15px;
 		.glyph__tr{
 			display: table-row;
 			.glyph__td{
 				display: table-cell;
 				cursor: pointer;
 				text-align: center;
-				width: 10%;
 				border-radius: 10px;
 				-ms-transition: .6s;
 				-moz-transition: .6s;
 				-webkit-transition: .6s;
 				-o-transition: .6s;
 				transition: .6s;
-				padding: 20px 10px;
+				padding: 25px 10px;
 				font-size: 17px;
 				line-height: 20px;
+				background-color: #f4f4f4;
 				&:hover{
-					background-color: #007BFF;
+					background-color: #ff58ad;
+					transform: scale(2);
 				}
 			}
 		}
