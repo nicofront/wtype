@@ -1,9 +1,9 @@
 <?php include('partials/header.php'); ?>
 
 <body>
-    <div class="stage mb-5">
+    <div class="stage mb-0">
         <div class="menu">
-            <div class="container-xl">
+            <div class="container">
                 <div class="row">
                     <div class="col-lg-3 col-6 order-1 order-lg-1">
                         <a href="index.php" class="stage__title">
@@ -25,102 +25,90 @@
     </div>
 
     <div class="blog mb-5" id="blogs">
-        <div class="container-xl">
+        <div class="container">
             <div class="row">
                 <div class="col-md-12">
-                    <h3 class="text text--big30 text--black pb-4">
+                    <h3 class="pb-4 text text--big30 text--black mb-4">
                         Blog W
                     </h3>
                 </div>
                 <div class="col-md-12">
                     <div class="blog__post blog__post--big">
-                        <div class="col-md-8">
-                            <img src="https://picsum.photos/seed/picsum/1200/600" alt="Moncler">
-                        </div>
-                        <div class="col-md-4">
-                            <h3>
-                                <a href="" class="transition text text--blogtitle text--blogtitle--big">
-                                    Nueva Merch
-                                    de temporada
-                                    verano WTF
-                                </a>
-                            </h3>
-                            <h5 class="text text--blogauthor text--blogauthor--big">
-                                Team W - 01 . 2021
-                            </h5>
-                            <div class="categories">
-                                <ul>
-                                    <li>
-                                        <a href="" class="transition button">
-                                            Merch
-                                        </a>
-                                    </li>
-                                    <li>
-                                        <a href="" class="transition button">
-                                            Vida
-                                        </a>
-                                    </li>
-                                    <li>
-                                        <a href="" class="transition button button--circle">
-                                            +
-                                        </a>
-                                    </li>
-                                </ul>
+                        <div class="row">
+                            <div class="col-md-8">
+                                <img src="assets/images/placeholder/blog-01.png" alt="Moncler">
+                            </div>
+                            <div class="col-md-4">
+                                <h3>
+                                    <a href="tblog.php" class="transition text text--blogtitle text--blogtitle--big">
+                                        Nueva Merch
+                                        de temporada
+                                        verano WTF
+                                    </a>
+                                </h3>
+                                <h5 class="text text--blogauthor text--blogauthor--big">
+                                    Team W - 01 . 2021
+                                </h5>
+                                <div class="categories">
+                                    <ul>
+                                        <li>
+                                            <a href="" class="transition button">
+                                                Merch
+                                            </a>
+                                        </li>
+                                        <li>
+                                            <a href="" class="transition button">
+                                                Vida
+                                            </a>
+                                        </li>
+                                        <li>
+                                            <a href="" class="transition button button--circle">
+                                                +
+                                            </a>
+                                        </li>
+                                    </ul>
+                                </div>
                             </div>
                         </div>
                     </div>
                 </div>
             </div>
             <div class="row">
-                <div class="col-md-7 mb-4">
-                    <div class="text text--big30 mb-4">
-                        Categorías
-                    </div>
-                    <div class="categories">
-                        <ul>
-                            <li>
-                                <a href="" class="transition button">
-                                    Merch
-                                </a>
-                            </li>
-                            <li>
-                                <a href="" class="transition button">
-                                    Vida W
-                                </a>
-                            </li>
-                            <li>
-                                <a href="" class="transition button">
-                                    Workshop
-                                </a>
-                            </li>
-                            <li>
-                                <a href="" class="transition u-upper button button--circle">
-                                    +
-                                </a>
-                            </li>
-                        </ul>
+                <div class="col-md-8 mb-4">
+                    <div class="text text--big30 text--black mb-4">
+                        Otras Entradas
                     </div>
                 </div>
-                <div class="col-md-5 mb-4">
-                    <div class="text text--big30 mb-4">
-                        Search
-                    </div>
-                    <div class="form">
-                        <div class="form__item form__item--search">
-                            <input type="text">
-                        </div>
-                    </div>
-                </div>
-                <div class="col-md-12 mb-3">
-                    <div class="text text--big30">
-                        Otras entradas
-                    </div>
+                <div class="col-md-4 mb-4">
+                    <select name="" class="button button--alpha button--left button--full custom-select">
+                        <option value="">
+                            Categorías
+                        </option>
+                        <option value="">
+                            Option
+                        </option>
+                        <option value="">
+                            Option
+                        </option>
+                        <option value="">
+                            Option
+                        </option>
+                        <option value="">
+                            Option
+                        </option>
+                        <option value="">
+                            Option
+                        </option>
+                        <option value="">
+                            Option
+                        </option>
+                    </select>
                 </div>
             </div>
             <div class="row">
                 <div class="col-md-4">
                     <div class="blog__post blog__post--small">
-                        <img src="https://picsum.photos/seed/picsum/1200/600" alt="Moncler">
+                        <img src="assets/images/placeholder/blog-02.png" alt="Moncler">
                         <h4>
                             <a href="" class="transition text text--blogtitle">
                                 Nueva Merch
@@ -166,7 +154,7 @@
                 </div>
                 <div class="col-md-4">
                     <div class="blog__post blog__post--small">
-                        <img src="https://picsum.photos/seed/picsum/1200/600" alt="Moncler">
+                        <img src="assets/images/placeholder/blog-02.png" alt="Moncler">
                         <h4>
                             <a href="" class="transition text text--blogtitle">
                                 Lorem ipsum dolor sit amet consectetur adipisicing elit. Molestiae aliquid ut sed tempore velit explicabo, vel cupiditate sequi odio voluptate.
@@ -214,7 +202,7 @@
                 </div>
                 <div class="col-md-4">
                     <div class="blog__post blog__post--small">
-                        <img src="https://picsum.photos/seed/picsum/1200/600" alt="Moncler">
+                        <img src="assets/images/placeholder/blog-04.png" alt="Moncler">
                         <h4>
                             <a href="" class="transition text text--blogtitle">
                                 Lorem ipsum dolor sit amet consectetur adipisicing, elit. Harum, non.
@@ -236,7 +224,7 @@
                 </div>
                 <div class="col-md-4">
                     <div class="blog__post blog__post--small">
-                        <img src="https://picsum.photos/seed/picsum/1200/600" alt="Moncler">
+                        <img src="assets/images/placeholder/blog-05.png" alt="Moncler">
                         <h4>
                             <a href="" class="transition text text--blogtitle">
                                 Lorem ipsum dolor sit amet consectetur adipisicing elit. Molestiae aliquid ut sed tempore velit explicabo, vel cupiditate sequi odio voluptate.
@@ -255,6 +243,11 @@
                             </ul>
                         </div>
                     </div>
+                </div>
+            </div>
+            <div class="row">
+                <div class="col-md-12 u-center mb-5 mt-5">
+                    <a href="" class="button u-upper button--big text text--black u-transition mb-5">Cargar más</a>
                 </div>
             </div>
             <div class="row">

@@ -3,7 +3,7 @@
 <body>
     <div class="stage mb-5">
         <div class="menu">
-            <div class="container-xl">
+            <div class="container">
                 <div class="row">
                     <div class="col-lg-3 col-6 order-1 order-lg-1">
                         <a href="index.php" class="stage__title">

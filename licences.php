@@ -3,7 +3,7 @@
 <body>
     <div class="stage mb-5">
         <div class="menu">
-            <div class="container-xl">
+            <div class="container">
                 <div class="row">
                     <div class="col-lg-3 col-6 order-1 order-lg-1">
                         <a href="index.php" class="stage__title">
@@ -25,191 +25,247 @@
     </div>
 
     <div class="contact">
-        <div class="container-xl">
+        <div class="container">
             <div class="row">
-                <div class="col-lg-3 col-md-4">
-                    <div class="pb-5">
-                        <div class="mb-2">
-                            <a href="" class="button button--full u-upper">
-                                W END USER LICENSE
-                            </a>
+                <div class="offset-md-1 col-md-10">
+                    <div class="row">
+                        <div class="col-lg-3 col-md-4">
+                            <div class="pb-5">
+                                <div class="mb-3">
+                                    <a href="#end-user" class="button button--full u-upper">
+                                        W END USER LICENSE
+                                    </a>
+                                </div>
+                                <div class="mb-3">
+                                    <a href="#cross-media" class="button button--full u-upper">
+                                        CROSS MEDIA LICENSE
+                                    </a>
+                                </div>
+                                <div class="mb-3">
+                                    <a href="#personal-use" class="button button--full u-upper">
+                                        PERSONAL USE LICENSE
+                                    </a>
+                                </div>
+                                <div class="mb-3">
+                                    <a href="on-request" class="button button--full u-upper">
+                                        ON REQUEST LICENSES
+                                    </a>
+                                </div>
+                                <div class="mb-2">
+                                    <a href="" class="button button--full u-upper">
+                                        ON REQUEST LICENSES
+                                    </a>
+                                </div>
+                            </div>
                         </div>
-                        <div class="mb-2">
-                            <a href="" class="button button--full u-upper">
+                        <div class="offset-lg-1 col-lg-7 col-md-8 pb-5">
+                            <div class="languaje">
+                                <h3 id="end-user" class="pb-4 text text--black text--big30">
+                                    W END USER LICENSE <br>
+                                    AGREEMENT — EULA <br>
+                                    01-12-21 V.1
+                                </h3>
+                                <div class="pb-5 languaje__setting">
+                                    <a href="" class="button languaje__switch languaje__switch--eng button--black">ENG</a>
+                                    <a href="" class="button languaje__switch languaje__switch--esp">ESP</a>
+                                </div>
+                                <div class="languaje__block languaje__eng languaje__block--active">
+                                    <h4 class="pb-4 text text--black text--big20">
+                                        1. Opening
+                                    </h4>
+                                    <p class="pb-4 text text--small15">
+                                        This is a legally binding contract between the Licensee and W Type Foundry™. The Licen-
+                                        se Owner or Licensee is the corporation, brand, or business for who the typeface is at
+                                        service and in use, not the agency or commissioned designer responsible for creating the
+                                        work. By purchasing, downloading, installing, or manipulating font software (“Font(s)”)
+                                        terms and conditions of this License Agreement.
+                                    </p>
+                                    <p class="pb-4 text text--small15">
+                                        You are purchasing the rights to use the fonts as specified in this agreement. You are not
+                                        purchasing the copyright to the design or any other part of the fonts.
+                                    </p>
+                                    <p class="pb-5 mb-5 text text--small15">
+                                        The use of any of the Licenses described below must correspond to what is stated in your
+                                    </p>
+                                </div>
+                                <div class="languaje__block languaje__esp">
+                                    <h4 class="pb-4 text text--black text--big20">
+                                        1. Intro
+                                    </h4>
+                                    <p class="pb-4 text text--small15">
+                                        This is a legally binding contract between the Licensee and W Type Foundry™. The Licen-
+                                        se Owner or Licensee is the corporation, brand, or business for who the typeface is at
+                                        service and in use, not the agency or commissioned designer responsible for creating the
+                                        work. By purchasing, downloading, installing, or manipulating font software (“Font(s)”)
+                                        terms and conditions of this License Agreement.
+                                    </p>
+                                    <p class="pb-4 text text--small15">
+                                        You are purchasing the rights to use the fonts as specified in this agreement. You are not
+                                        purchasing the copyright to the design or any other part of the fonts.
+                                    </p>
+                                    <p class="pb-5 mb-5 text text--small15">
+                                        The use of any of the Licenses described below must correspond to what is stated in your
+                                    </p>
+                                </div>
+                            </div>
+                            <h3 id="cross-media" class="pb-5 text text--black text--big30">
                                 CROSS MEDIA LICENSE
-                            </a>
-                        </div>
-                        <div class="mb-2">
-                            <a href="" class="button button--full u-upper">
-                                PERSONAL USE LICENSE
-                            </a>
-                        </div>
-                        <div class="mb-2">
-                            <a href="" class="button button--full u-upper">
-                                ON REQUEST LICENSES
-                            </a>
-                        </div>
-                        <div class="mb-2">
-                            <a href="" class="button button--full u-upper">
-                                ON REQUEST LICENSES
-                            </a>
+                            </h3>
+                            <p class="pb-4 text text--small15">
+                                W Type Foundry<sup>TM</sup> Cross Media License grants Licensee non-exclusive, and non-transfera-
+                                ble license to use the specified font(s) as stated by the invoice information.
+                            </p>
+                            <p class="pb-4 text text--small15">
+                                a. Print License <br>
+                                Desktop installation; according to its specified number of workstations
+                            </p>
+                            <p class="pb-4 text text--small15"> 
+                                b. Web License <br>
+                                Web installation; according to the number of visitors the web may serve, calculated on a
+                                monthly basis.
+                            </p>
+                            <p class="pb-4 mb-5 text text--small15">
+                                c. Social Media License <br>
+                                Social Media applications; according to the combined amount of followers across three
+                                main channels; Instagram, Twitter, and Facebook
+                            </p>
+                            <h4 class="pb-4 text text--black text--big20">
+                                a. Desktop / Print License
+                            </h4>
+                            <ul class="mb-5">
+                                <li class="pb-4 text text--small15">
+                                    W Type Foundry<sup>TM</sup> Cross Media License grants Licensee non-exclusive, and non-transferable license to use the specified font(s) as stated by the invoice information.
+                                </li>
+                                <li class="pb-4 text text--small15">
+                                    The Desktop / Print License is calculated based on the number of workstations font(s)
+                                    will be installed in. The number of workstations is referenced on the invoice. If the number
+                                    of workstations increases, the license must be updated.
+                                </li>
+                                <li class="pb-4 text text--small15">
+                                    The Desktop / Print License is perpetual but non-transferable. In the case of the closure
+                                    or merging of business entities, the license and the font(s) cannot be transferred.
+                                </li>
+                                <li class="pb-4 text text--small15">
+                                    All licensed workstations must legally belong to the same company or entity purcha-
+                                    sing the font. If the company or entity employs any third parties or temporarily-employed
+                                    freelancers, a separate license is necessary for those parties.
+                                </li>
+                                <li class="pb-4 text text--small15">
+                                    The Licensee may not use the font(s) to create alphabet or letterform products for resale
+                                    where the product consists of individual letterforms where the likeness of the font(s) can
+                                    be reproduced and the end-user of said products can create their own typesetting. An
+                                    extended license may be available for an additional fee.
+                                </li>
+                                <li class="pb-4 text text--small15">
+                                    The Licensee may not use dingbats, illustrations or images in the font(s) in a manner
+                                    where the illustration or image becomes the primary aspect of a product for resale. An
+                                    extended license may be available for an additional fee.
+                                </li>
+                                <li class="pb-4 text text--small15">
+                                    The font(s) are provided in OTF format and may be used offline only. The Licensee can make security copies of the font(s) as long as they remain inaccessible to external parties.
+                                </li>
+                                <li class="pb-4 text text--small15">
+                                    When embedded in production files, a copy of the font(s) may be temporarily provided
+                                    to printer, prepress or such. Unless they are manipulating text or design using W Type
+                                    Foundry™ font(s), in which case an individual license is necessary.
+                                </li>
+                                <li class="pb-4 text text--small15">
+                                    The font(s) may be embedded into public PDF files as vector outlines.
+                                </li>
+                                <li class="pb-5 text text--small15">
+                                    Print-font(s) must not be used to generate web-font(s).
+                                </li>
+                            </ul>
+                            <h4 class="pb-4 text text--black text--big20">
+                                a.1 Restrictions
+                            </h4>
+                            <ul class="mb-5">
+                                <li class="pb-5 text text--small15">
+                                    The Licensee may not use the font(s) as is in the logo or word mark of the company or
+                                    License Owner brand. A Logo License is available for an additional fee, this will depend on
+                                    the size of the company. Contact W Type Foundry™ at hola@wtypefoundry.com for more
+                                    information.
+                                </li>
+                            </ul>
+                            <h4 class="pb-4 text text--black text--big20">
+                                b. Web License
+                            </h4>
+                            <ul class="mb-5">
+                                <li class="pb-4 text text--small15">
+                                    The Licensee may install the font(s) onto one (1) or more websites property of the com-
+                                    pany or license owner brand. All websites must belong to the same company or entity.
+                                </li>
+                                <li class="pb-4 text text--small15">
+                                    The Web License is calculated based on the number of visitors the website(s) may
+                                    serve, dependent on the license purchased and referenced on the invoice. If the number of
+                                    visitors increases, the license must be updated.
+                                </li>
+                                <li class="pb-4 text text--small15">
+                                    The Web License is perpetual but non-transferable. In the case of the closure of a web-
+                                    site or merging of business entities, the license and the font(s) fonts cannot be transfe-
+                                    rred.
+                                </li>
+                                <li class="pb-4 text text--small15">
+                                    The Web License visitor number is calculated on a monthly bases / views per month.
+                                </li>
+                                <li class="pb-4 text text--small15">
+                                    Web License font(s) are provided in WOFF format and must be self-hosted on the Licen-
+                                    see’s server(s).
+                                </li>
+                                <li class="pb-5 text text--small15">
+                                    Web-fonts cannot be generated from print-fonts or other files. The provided Web-fonts
+                                    cannot be used for any other purposes than what's defined by this license.
+                                </li>
+                            </ul>
+                            <h3 class="pb-5 text text--black text--big30">
+                                FAQ
+                            </h3>
+                            <h4 class="pb-4 text text--black text--big20">
+                                What is a font License?
+                            </h4>
+                            <p class="pb-4 text text--small15">
+                                A font license is simply an agreement that gives you permission to use a font. <br>
+                                What is a Cross Media License?
+                            </p>
+                            <p class="pb-5 text text--small15">
+                                The Cross Media License is a 3 in 1 license, it combines Print, Web, and Social Media into
+                                one. It's cheaper, more convenient, and safer.
+                                It's designed to allow the use of fonts across these main channels, to provide a wider user
+                                base, with a cohesive cross-platform experience.
+                            </p>
+                            <h4 class="pb-4 text text--black text--big20">
+                                Trail Licenses
+                            </h4>
+                            <p class="pb-5 mb-5 text text--small15">
+                                If you want to try one of our fonts, just send us an email :)
+                            </p>
                         </div>
                     </div>
                 </div>
-                <div class="col-lg-6 col-md-8 pb-5">
-                    <h3 class="pb-5 text text--black text--big30">
-                        W END USER LICENSE <br>
-                        AGREEMENT — EULA <br>
-                        01-12-21 V.1
-                    </h3>
-                    <h4 class="pb-4 text text--black text--big20">
-                        1. Opening
-                    </h4>
-                    <p class="pb-4 text text--small15">
-                        This is a legally binding contract between the Licensee and W Type Foundry™. The Licen-
-                        se Owner or Licensee is the corporation, brand, or business for who the typeface is at
-                        service and in use, not the agency or commissioned designer responsible for creating the
-                        work. By purchasing, downloading, installing, or manipulating font software (“Font(s)”)
-                        terms and conditions of this License Agreement.
-                    </p>
-                    <p class="pb-4 text text--small15">
-                        You are purchasing the rights to use the fonts as specified in this agreement. You are not
-                        purchasing the copyright to the design or any other part of the fonts.
-                    </p>
-                    <p class="pb-5 mb-5 text text--small15">
-                        The use of any of the Licenses described below must correspond to what is stated in your
-                    </p>
-                    <h3 class="pb-5 text text--black text--big30">
-                        CROSS MEDIA LICENSE
-                    </h3>
-                    <p class="pb-4 text text--small15">
-                        W Type Foundry<sup>TM</sup> Cross Media License grants Licensee non-exclusive, and non-transfera-
-                        ble license to use the specified font(s) as stated by the invoice information.
-                    </p>
-                    <p class="pb-4 text text--small15">
-                        a. Print License <br>
-                        Desktop installation; according to its specified number of workstations
-                    </p>
-                    <p class="pb-4 text text--small15"> 
-                        b. Web License <br>
-                        Web installation; according to the number of visitors the web may serve, calculated on a
-                        monthly basis.
-                    </p>
-                    <p class="pb-4 mb-5 text text--small15">
-                        c. Social Media License <br>
-                        Social Media applications; according to the combined amount of followers across three
-                        main channels; Instagram, Twitter, and Facebook
-                    </p>
-                    <h4 class="pb-4 text text--black text--big20">
-                        a. Desktop / Print License
-                    </h4>
-                    <ul class="mb-5">
-                        <li class="pb-4 text text--small15">
-                            W Type Foundry<sup>TM</sup> Cross Media License grants Licensee non-exclusive, and non-transferable license to use the specified font(s) as stated by the invoice information.
-                        </li>
-                        <li class="pb-4 text text--small15">
-                            The Desktop / Print License is calculated based on the number of workstations font(s)
-                            will be installed in. The number of workstations is referenced on the invoice. If the number
-                            of workstations increases, the license must be updated.
-                        </li>
-                        <li class="pb-4 text text--small15">
-                            The Desktop / Print License is perpetual but non-transferable. In the case of the closure
-                            or merging of business entities, the license and the font(s) cannot be transferred.
-                        </li>
-                        <li class="pb-4 text text--small15">
-                            All licensed workstations must legally belong to the same company or entity purcha-
-                            sing the font. If the company or entity employs any third parties or temporarily-employed
-                            freelancers, a separate license is necessary for those parties.
-                        </li>
-                        <li class="pb-4 text text--small15">
-                            The Licensee may not use the font(s) to create alphabet or letterform products for resale
-                            where the product consists of individual letterforms where the likeness of the font(s) can
-                            be reproduced and the end-user of said products can create their own typesetting. An
-                            extended license may be available for an additional fee.
-                        </li>
-                        <li class="pb-4 text text--small15">
-                            The Licensee may not use dingbats, illustrations or images in the font(s) in a manner
-                            where the illustration or image becomes the primary aspect of a product for resale. An
-                            extended license may be available for an additional fee.
-                        </li>
-                        <li class="pb-4 text text--small15">
-                            The font(s) are provided in OTF format and may be used offline only. The Licensee can make security copies of the font(s) as long as they remain inaccessible to external parties.
-                        </li>
-                        <li class="pb-4 text text--small15">
-                            When embedded in production files, a copy of the font(s) may be temporarily provided
-                            to printer, prepress or such. Unless they are manipulating text or design using W Type
-                            Foundry™ font(s), in which case an individual license is necessary.
-                        </li>
-                        <li class="pb-4 text text--small15">
-                            The font(s) may be embedded into public PDF files as vector outlines.
-                        </li>
-                        <li class="pb-5 text text--small15">
-                            Print-font(s) must not be used to generate web-font(s).
-                        </li>
-                    </ul>
-                    <h4 class="pb-4 text text--black text--big20">
-                        a.1 Restrictions
-                    </h4>
-                    <ul class="mb-5">
-                        <li class="pb-5 text text--small15">
-                            The Licensee may not use the font(s) as is in the logo or word mark of the company or
-                            License Owner brand. A Logo License is available for an additional fee, this will depend on
-                            the size of the company. Contact W Type Foundry™ at hola@wtypefoundry.com for more
-                            information.
-                        </li>
-                    </ul>
-                    <h4 class="pb-4 text text--black text--big20">
-                        b. Web License
-                    </h4>
-                    <ul class="mb-5">
-                        <li class="pb-4 text text--small15">
-                            The Licensee may install the font(s) onto one (1) or more websites property of the com-
-                            pany or license owner brand. All websites must belong to the same company or entity.
-                        </li>
-                        <li class="pb-4 text text--small15">
-                            The Web License is calculated based on the number of visitors the website(s) may
-                            serve, dependent on the license purchased and referenced on the invoice. If the number of
-                            visitors increases, the license must be updated.
-                        </li>
-                        <li class="pb-4 text text--small15">
-                            The Web License is perpetual but non-transferable. In the case of the closure of a web-
-                            site or merging of business entities, the license and the font(s) fonts cannot be transfe-
-                            rred.
-                        </li>
-                        <li class="pb-4 text text--small15">
-                            The Web License visitor number is calculated on a monthly bases / views per month.
-                        </li>
-                        <li class="pb-4 text text--small15">
-                            Web License font(s) are provided in WOFF format and must be self-hosted on the Licen-
-                            see’s server(s).
-                        </li>
-                        <li class="pb-5 text text--small15">
-                            Web-fonts cannot be generated from print-fonts or other files. The provided Web-fonts
-                            cannot be used for any other purposes than what's defined by this license.
-                        </li>
-                    </ul>
-                    <h3 class="pb-5 text text--black text--big30">
-                        FAQ
-                    </h3>
-                    <h4 class="pb-4 text text--black text--big20">
-                        What is a font License?
-                    </h4>
-                    <p class="pb-4 text text--small15">
-                        A font license is simply an agreement that gives you permission to use a font. <br>
-                        What is a Cross Media License?
-                    </p>
-                    <p class="pb-5 text text--small15">
-                        The Cross Media License is a 3 in 1 license, it combines Print, Web, and Social Media into
-                        one. It's cheaper, more convenient, and safer.
-                        It's designed to allow the use of fonts across these main channels, to provide a wider user
-                        base, with a cohesive cross-platform experience.
-                    </p>
-                    <h4 class="pb-4 text text--black text--big20">
-                        Trail Licenses
-                    </h4>
-                    <p class="pb-5 mb-5 text text--small15">
-                        If you want to try one of our fonts, just send us an email :)
-                    </p>
+                <div class="col-md-12 mb-5">
+                    <section class="marquee marquee--border button button--noborder button--big mb-5">
+                      <h4 class="text">
+                        Releases, freebies, secrets. Join our Newsletter***Releases, freebies, secrets. Join our Newsletter
+                      </h4>
+                      <h4 class="text">
+                        Releases, freebies, secrets. Join our Newsletter***Releases, freebies, secrets. Join our Newsletter
+                      </h4>
+                      <h4 class="text">
+                        Releases, freebies, secrets. Join our Newsletter***Releases, freebies, secrets. Join our Newsletter
+                      </h4>
+                      <h4 class="text">
+                        Releases, freebies, secrets. Join our Newsletter***Releases, freebies, secrets. Join our Newsletter
+                      </h4>
+                      <h4 class="text">
+                        Releases, freebies, secrets. Join our Newsletter***Releases, freebies, secrets. Join our Newsletter
+                      </h4>
+                      <h4 class="text">
+                        Releases, freebies, secrets. Join our Newsletter***Releases, freebies, secrets. Join our Newsletter
+                      </h4>
+                      <h4 class="text">
+                        Releases, freebies, secrets. Join our Newsletter***Releases, freebies, secrets. Join our Newsletter
+                      </h4>
+                    </section>
                 </div>
             </div>
         </div>
