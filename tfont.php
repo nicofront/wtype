@@ -118,6 +118,17 @@
                         </div>
                     </div>
                 </div>
+                <div class="row">
+                    <div class="col-md-6 mb-5">
+                        <img src="assets/images/placeholder/single-01.png" alt="Example">
+                    </div>
+                    <div class="col-md-6 mb-5">
+                        <img src="assets/images/placeholder/single-02.png" alt="Example">
+                    </div>
+                    <div class="offset-md-1 col-md-10 mb-5">
+                        <img src="assets/images/placeholder/single-03.png" alt="Example">
+                    </div>
+                </div>
             </div>
         </div>
     </div>
@@ -137,12 +148,54 @@
         </div>
     </div>
 
-    <div class="container mb-5">
+    <div class="container mb-5" id="features">
         <div class="row">
             <div class="col-md-12 mb-4 u-center">
                 <h3 class="pb-4 text text--big30 text--black">
                     Features
                 </h3>
+                <div class="features u-center mb-5">
+                    <div class="row">
+                        <div class="col-md-10 offset-md-1">
+                            <div class="row">
+                                <div class="col-md-4 offset-md-1">
+                                    <p class="text text--regular20 pb-1">
+                                        Alternate a
+                                    </p>
+                                    <div class="features__item text text--black text--big50 mb-5">
+                                        Gato
+                                    </div>
+                                </div>
+                                <div class="col-md-4 offset-md-2">
+                                    <p class="text text--regular20 pb-1">
+                                        Alternate g
+                                    </p>
+                                    <div class="features__item text text--black text--big50 mb-5">
+                                        Taggua
+                                    </div>
+                                </div>
+                            </div>
+                            <div class="row">
+                                <div class="col-md-4 offset-md-1">
+                                    <p class="text text--regular20 pb-1">
+                                        Alternate numbers
+                                    </p>
+                                    <div class="features__item text text--black text--big50 mb-5">
+                                        012012
+                                    </div>
+                                </div>
+                                <div class="col-md-4 offset-md-2">
+                                    <p class="text text--regular20 pb-1">
+                                        Flechas
+                                    </p>
+                                    <div class="features__item text text--black text--big40 mb-5">
+                                        Gato
+                                    </div>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                </div>
             </div>
         </div>
     </div>
@@ -151,7 +204,10 @@
         <div class="row">
             <div class="col-md-4 offset-md-4 mb-3">
                 <div class="u-center">
-                    <select name="" class="button button--alpha button--left button--full">
+                    <h3 class="mb-5 text text--big30 text--black">
+                        Glyphs
+                    </h3>
+                    <select name="" class="button button--left button--full custom-select">
                         <option value="">
                             Herokid Extra Bold Ultra Condensed
                         </option>
@@ -164,7 +220,7 @@
                     </select>
                 </div>
             </div>
-            <div class="col-md-12 mb-3">
+            <div class="col-md-12 mb-3 mt-3">
                 <h4 class="text text--regular20 mb-2 u-center">
                     Uppercase
                 </h4>
