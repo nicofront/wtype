@@ -60,6 +60,14 @@
                                       <input type="range" min="1" max="100" value="50" class="sliderrange">
                                     </div>
                                 </div>
+                                <div class="col-md-4">
+                                    <a href="" class="button text u-upper">
+                                        Color
+                                    </a>
+                                    <a href="" class="button text u-upper">
+                                        Var
+                                    </a>
+                                </div>
                             </div>
                         </div>
                     </div>

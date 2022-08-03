@@ -70,7 +70,7 @@
                                     </div>
                                 </div>
                                 <div class="col-lg-2 col-md-3 offset-lg-3 offset-md-1">
-                                    <a href="tfont.php" class="button text text--black u-upper">
+                                    <a href="tfont.php" class="button text u-upper">
                                         View font
                                     </a>
                                 </div>
