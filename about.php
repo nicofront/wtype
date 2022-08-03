@@ -25,4 +25,43 @@
     </div>
 </body>
 
+<section>
+    <!-- KNOWN SETBACKS
+      - Picker struggles with positioning when selected colour is black
+      - Picker still uses JQuery for DOM manipulation
+      - Picker on first load does not place selectors/cursors
+    -->
+
+    <div name="ColourPicker" class="component">
+      <div name="picker"></div>
+    <div>
+      
+      <!-- This script is a 'template' that holds the html that will be the colour picker once initialized-->
+     <script name="COLOURPICKER" type="template" class="template">
+    <div class="row">
+        <canvas class=" " name="hue" height="250" width="250"></canvas>
+        <canvas class=" " name="base" height="250" width="25"></canvas>
+        <div class="form col container">        
+            <ul name="rgb">
+                <li>
+                    <div name="output"></div>
+                </li>
+                <li name="r">
+                    <label>R </label> <input />
+                </li>
+                <li name="g">
+                    <label>G </label> <input />
+                </li>
+                <li name="b">
+                    <label>B </label> <input />
+                </li>
+                <li name="hex">
+                    <label># </label> <input />
+                </li>
+            </ul>
+        </div>
+    </div>
+    </script>
+</section>
+
 <?php include('partials/footer.php'); ?>

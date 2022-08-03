@@ -294,3 +294,54 @@
         opacity: 0;
     }
 }  
+
+
+
+[name=ColourPicker].component {
+    border: 1px solid #222;
+    display: table;
+    margin: 1% auto;
+    padding: 8px;
+}
+
+.row {
+    display: flex;
+}
+
+canvas {
+    border: 1px solid #222;
+  cursor: crosshair;
+  margin:4px;
+  border-radius:20px;
+}
+
+[name=base] {
+    max-width: 25px;
+    border-radius: 8px;
+}
+
+[name=output] {
+    height: 50px;
+  border-radius: 10px;
+}
+
+[name=rgb] {
+    list-style: none;
+    margin: 0;
+    padding: 0 0 0 8px;
+}
+
+[name=rgb] li {
+    padding: 4px;
+}
+
+[name=rgb] li label {
+    width: 20px;
+    display: inline-block;
+}
+
+[name=rgb] li input {
+    padding: 8px 4px;
+  border-radius: 8px;
+  border:0;
+}
